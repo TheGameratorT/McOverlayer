@@ -1,0 +1,185 @@
+{
+  "axolotl": {
+    "texture_size": [
+      64,
+      64
+    ],
+    "regions": [
+      {
+        "name": "body_0_top",
+        "x": 10,
+        "y": 11,
+        "width": 8,
+        "height": 10
+      },
+      {
+        "name": "body_0_bottom",
+        "x": 18,
+        "y": 11,
+        "width": 8,
+        "height": 10
+      },
+      {
+        "name": "body_0_right",
+        "x": 0,
+        "y": 21,
+        "width": 10,
+        "height": 4
+      },
+      {
+        "name": "body_0_front",
+        "x": 10,
+        "y": 21,
+        "width": 8,
+        "height": 4
+      },
+      {
+        "name": "body_0_left",
+        "x": 18,
+        "y": 21,
+        "width": 10,
+        "height": 4
+      },
+      {
+        "name": "body_0_back",
+        "x": 28,
+        "y": 21,
+        "width": 8,
+        "height": 4
+      },
+      {
+        "name": "body_1_right",
+        "x": 2,
+        "y": 26,
+        "width": 9,
+        "height": 5
+      },
+      {
+        "name": "body_1_left",
+        "x": 11,
+        "y": 26,
+        "width": 9,
+        "height": 5
+      },
+      {
+        "name": "head_top",
+        "x": 5,
+        "y": 1,
+        "width": 8,
+        "height": 5
+      },
+      {
+        "name": "head_bottom",
+        "x": 13,
+        "y": 1,
+        "width": 8,
+        "height": 5
+      },
+      {
+        "name": "head_right",
+        "x": 0,
+        "y": 6,
+        "width": 5,
+        "height": 5
+      },
+      {
+        "name": "head_front",
+        "x": 5,
+        "y": 6,
+        "width": 8,
+        "height": 5
+      },
+      {
+        "name": "head_left",
+        "x": 13,
+        "y": 6,
+        "width": 5,
+        "height": 5
+      },
+      {
+        "name": "head_back",
+        "x": 18,
+        "y": 6,
+        "width": 8,
+        "height": 5
+      },
+      {
+        "name": "top_gills_front",
+        "x": 3,
+        "y": 37,
+        "width": 8,
+        "height": 3
+      },
+      {
+        "name": "top_gills_back",
+        "x": 11,
+        "y": 37,
+        "width": 8,
+        "height": 3
+      },
+      {
+        "name": "left_gills_front",
+        "x": 0,
+        "y": 40,
+        "width": 3,
+        "height": 7
+      },
+      {
+        "name": "left_gills_back",
+        "x": 3,
+        "y": 40,
+        "width": 3,
+        "height": 7
+      },
+      {
+        "name": "right_gills_front",
+        "x": 11,
+        "y": 40,
+        "width": 3,
+        "height": 7
+      },
+      {
+        "name": "right_gills_back",
+        "x": 14,
+        "y": 40,
+        "width": 3,
+        "height": 7
+      },
+      {
+        "name": "right_hind_leg_front",
+        "x": 2,
+        "y": 13,
+        "width": 3,
+        "height": 5
+      },
+      {
+        "name": "right_hind_leg_back",
+        "x": 5,
+        "y": 13,
+        "width": 3,
+        "height": 5
+      },
+      {
+        "name": "tail_right",
+        "x": 2,
+        "y": 31,
+        "width": 12,
+        "height": 5
+      },
+      {
+        "name": "tail_left",
+        "x": 14,
+        "y": 31,
+        "width": 12,
+        "height": 5
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/axolotl/axolotl_blue.png",
+      "minecraft/textures/entity/axolotl/axolotl_cyan.png",
+      "minecraft/textures/entity/axolotl/axolotl_gold.png",
+      "minecraft/textures/entity/axolotl/axolotl_lucy.png",
+      "minecraft/textures/entity/axolotl/axolotl_wild.png"
+    ]
+  }
+}

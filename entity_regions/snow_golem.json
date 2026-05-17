@@ -1,0 +1,181 @@
+{
+  "snow_golem": {
+    "texture_size": [
+      64,
+      64
+    ],
+    "regions": [
+      {
+        "name": "head_top",
+        "x": 8,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_bottom",
+        "x": 16,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_right",
+        "x": 0,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_front",
+        "x": 8,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_left",
+        "x": 16,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_back",
+        "x": 24,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "left_arm_top",
+        "x": 34,
+        "y": 0,
+        "width": 12,
+        "height": 2
+      },
+      {
+        "name": "left_arm_bottom",
+        "x": 46,
+        "y": 0,
+        "width": 12,
+        "height": 2
+      },
+      {
+        "name": "left_arm_right",
+        "x": 32,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_arm_front",
+        "x": 34,
+        "y": 2,
+        "width": 12,
+        "height": 2
+      },
+      {
+        "name": "left_arm_left",
+        "x": 46,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_arm_back",
+        "x": 48,
+        "y": 2,
+        "width": 12,
+        "height": 2
+      },
+      {
+        "name": "upper_body_top",
+        "x": 10,
+        "y": 16,
+        "width": 10,
+        "height": 10
+      },
+      {
+        "name": "upper_body_bottom",
+        "x": 20,
+        "y": 16,
+        "width": 10,
+        "height": 10
+      },
+      {
+        "name": "upper_body_right",
+        "x": 0,
+        "y": 26,
+        "width": 10,
+        "height": 10
+      },
+      {
+        "name": "upper_body_front",
+        "x": 10,
+        "y": 26,
+        "width": 10,
+        "height": 10
+      },
+      {
+        "name": "upper_body_left",
+        "x": 20,
+        "y": 26,
+        "width": 10,
+        "height": 10
+      },
+      {
+        "name": "upper_body_back",
+        "x": 30,
+        "y": 26,
+        "width": 10,
+        "height": 10
+      },
+      {
+        "name": "lower_body_top",
+        "x": 12,
+        "y": 36,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "lower_body_bottom",
+        "x": 24,
+        "y": 36,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "lower_body_right",
+        "x": 0,
+        "y": 48,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "lower_body_front",
+        "x": 12,
+        "y": 48,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "lower_body_left",
+        "x": 24,
+        "y": 48,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "lower_body_back",
+        "x": 36,
+        "y": 48,
+        "width": 12,
+        "height": 12
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/snow_golem.png"
+    ]
+  }
+}

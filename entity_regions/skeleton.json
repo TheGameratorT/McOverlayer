@@ -1,0 +1,223 @@
+{
+  "skeleton": {
+    "texture_size": [
+      64,
+      32
+    ],
+    "regions": [
+      {
+        "name": "head_top",
+        "x": 8,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_bottom",
+        "x": 16,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_right",
+        "x": 0,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_front",
+        "x": 8,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_left",
+        "x": 16,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_back",
+        "x": 24,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "hat_top",
+        "x": 40,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "hat_bottom",
+        "x": 48,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "hat_right",
+        "x": 32,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "hat_front",
+        "x": 40,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "hat_left",
+        "x": 48,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "hat_back",
+        "x": 56,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "body_top",
+        "x": 20,
+        "y": 16,
+        "width": 8,
+        "height": 4
+      },
+      {
+        "name": "body_bottom",
+        "x": 28,
+        "y": 16,
+        "width": 8,
+        "height": 4
+      },
+      {
+        "name": "body_right",
+        "x": 16,
+        "y": 20,
+        "width": 4,
+        "height": 12
+      },
+      {
+        "name": "body_front",
+        "x": 20,
+        "y": 20,
+        "width": 8,
+        "height": 12
+      },
+      {
+        "name": "body_left",
+        "x": 28,
+        "y": 20,
+        "width": 4,
+        "height": 12
+      },
+      {
+        "name": "body_back",
+        "x": 32,
+        "y": 20,
+        "width": 8,
+        "height": 12
+      },
+      {
+        "name": "right_arm_top",
+        "x": 42,
+        "y": 16,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_arm_bottom",
+        "x": 44,
+        "y": 16,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_arm_right",
+        "x": 40,
+        "y": 18,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "right_arm_front",
+        "x": 42,
+        "y": 18,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "right_arm_left",
+        "x": 44,
+        "y": 18,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "right_arm_back",
+        "x": 46,
+        "y": 18,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "right_leg_top",
+        "x": 2,
+        "y": 16,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_leg_bottom",
+        "x": 4,
+        "y": 16,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_leg_right",
+        "x": 0,
+        "y": 18,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "right_leg_front",
+        "x": 2,
+        "y": 18,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "right_leg_left",
+        "x": 4,
+        "y": 18,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "right_leg_back",
+        "x": 6,
+        "y": 18,
+        "width": 2,
+        "height": 12
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/skeleton/skeleton.png"
+    ]
+  }
+}

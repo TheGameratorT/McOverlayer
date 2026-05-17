@@ -1,0 +1,14 @@
+# Build output
+build/
+out/
+
+# Dev data (large assets, not for version control)
+dev/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor caches
+.cache/

@@ -1,0 +1,97 @@
+{
+  "evoker_fangs": {
+    "texture_size": [
+      64,
+      32
+    ],
+    "regions": [
+      {
+        "name": "base_top",
+        "x": 10,
+        "y": 0,
+        "width": 10,
+        "height": 10
+      },
+      {
+        "name": "base_bottom",
+        "x": 20,
+        "y": 0,
+        "width": 10,
+        "height": 10
+      },
+      {
+        "name": "base_right",
+        "x": 0,
+        "y": 10,
+        "width": 10,
+        "height": 12
+      },
+      {
+        "name": "base_front",
+        "x": 10,
+        "y": 10,
+        "width": 10,
+        "height": 12
+      },
+      {
+        "name": "base_left",
+        "x": 20,
+        "y": 10,
+        "width": 10,
+        "height": 12
+      },
+      {
+        "name": "base_back",
+        "x": 30,
+        "y": 10,
+        "width": 10,
+        "height": 12
+      },
+      {
+        "name": "upper_jaw_top",
+        "x": 48,
+        "y": 0,
+        "width": 4,
+        "height": 8
+      },
+      {
+        "name": "upper_jaw_bottom",
+        "x": 52,
+        "y": 0,
+        "width": 4,
+        "height": 8
+      },
+      {
+        "name": "upper_jaw_right",
+        "x": 40,
+        "y": 8,
+        "width": 8,
+        "height": 14
+      },
+      {
+        "name": "upper_jaw_front",
+        "x": 48,
+        "y": 8,
+        "width": 4,
+        "height": 14
+      },
+      {
+        "name": "upper_jaw_left",
+        "x": 52,
+        "y": 8,
+        "width": 8,
+        "height": 14
+      },
+      {
+        "name": "upper_jaw_back",
+        "x": 60,
+        "y": 8,
+        "width": 4,
+        "height": 14
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/illager/evoker_fangs.png"
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "panda": {
+    "texture_size": [
+      64,
+      64
+    ],
+    "regions": [
+      {
+        "name": "head_0_top",
+        "x": 9,
+        "y": 6,
+        "width": 13,
+        "height": 9
+      },
+      {
+        "name": "head_0_bottom",
+        "x": 22,
+        "y": 6,
+        "width": 13,
+        "height": 9
+      },
+      {
+        "name": "head_0_right",
+        "x": 0,
+        "y": 15,
+        "width": 9,
+        "height": 10
+      },
+      {
+        "name": "head_0_front",
+        "x": 9,
+        "y": 15,
+        "width": 13,
+        "height": 10
+      },
+      {
+        "name": "head_0_left",
+        "x": 22,
+        "y": 15,
+        "width": 9,
+        "height": 10
+      },
+      {
+        "name": "head_0_back",
+        "x": 31,
+        "y": 15,
+        "width": 13,
+        "height": 10
+      },
+      {
+        "name": "head_1_top",
+        "x": 47,
+        "y": 16,
+        "width": 7,
+        "height": 2
+      },
+      {
+        "name": "head_1_bottom",
+        "x": 54,
+        "y": 16,
+        "width": 7,
+        "height": 2
+      },
+      {
+        "name": "head_1_right",
+        "x": 45,
+        "y": 18,
+        "width": 2,
+        "height": 5
+      },
+      {
+        "name": "head_1_front",
+        "x": 47,
+        "y": 18,
+        "width": 7,
+        "height": 5
+      },
+      {
+        "name": "head_1_left",
+        "x": 54,
+        "y": 18,
+        "width": 2,
+        "height": 5
+      },
+      {
+        "name": "head_1_back",
+        "x": 56,
+        "y": 18,
+        "width": 7,
+        "height": 5
+      },
+      {
+        "name": "head_2_top",
+        "x": 53,
+        "y": 25,
+        "width": 5,
+        "height": 1
+      },
+      {
+        "name": "head_2_bottom",
+        "x": 58,
+        "y": 25,
+        "width": 5,
+        "height": 1
+      },
+      {
+        "name": "head_2_right",
+        "x": 52,
+        "y": 26,
+        "width": 1,
+        "height": 4
+      },
+      {
+        "name": "head_2_front",
+        "x": 53,
+        "y": 26,
+        "width": 5,
+        "height": 4
+      },
+      {
+        "name": "head_2_left",
+        "x": 58,
+        "y": 26,
+        "width": 1,
+        "height": 4
+      },
+      {
+        "name": "head_2_back",
+        "x": 59,
+        "y": 26,
+        "width": 5,
+        "height": 4
+      },
+      {
+        "name": "body_top",
+        "x": 13,
+        "y": 25,
+        "width": 19,
+        "height": 13
+      },
+      {
+        "name": "body_bottom",
+        "x": 32,
+        "y": 25,
+        "width": 19,
+        "height": 13
+      },
+      {
+        "name": "body_right",
+        "x": 0,
+        "y": 38,
+        "width": 13,
+        "height": 26
+      },
+      {
+        "name": "body_front",
+        "x": 13,
+        "y": 38,
+        "width": 19,
+        "height": 26
+      },
+      {
+        "name": "body_left",
+        "x": 32,
+        "y": 38,
+        "width": 13,
+        "height": 26
+      },
+      {
+        "name": "body_back",
+        "x": 45,
+        "y": 38,
+        "width": 19,
+        "height": 26
+      },
+      {
+        "name": "right_hind_leg_top",
+        "x": 46,
+        "y": 0,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "right_hind_leg_bottom",
+        "x": 52,
+        "y": 0,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "right_hind_leg_right",
+        "x": 40,
+        "y": 6,
+        "width": 6,
+        "height": 9
+      },
+      {
+        "name": "right_hind_leg_front",
+        "x": 46,
+        "y": 6,
+        "width": 6,
+        "height": 9
+      },
+      {
+        "name": "right_hind_leg_left",
+        "x": 52,
+        "y": 6,
+        "width": 6,
+        "height": 9
+      },
+      {
+        "name": "right_hind_leg_back",
+        "x": 58,
+        "y": 6,
+        "width": 6,
+        "height": 9
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/panda/panda.png",
+      "minecraft/textures/entity/panda/lazy_panda.png",
+      "minecraft/textures/entity/panda/worried_panda.png",
+      "minecraft/textures/entity/panda/playful_panda.png",
+      "minecraft/textures/entity/panda/brown_panda.png",
+      "minecraft/textures/entity/panda/weak_panda.png",
+      "minecraft/textures/entity/panda/aggressive_panda.png"
+    ]
+  }
+}

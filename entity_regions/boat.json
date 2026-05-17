@@ -1,0 +1,400 @@
+{
+  "boat": {
+    "texture_size": [
+      128,
+      64
+    ],
+    "regions": [
+      {
+        "name": "bottom_top",
+        "x": 3,
+        "y": 0,
+        "width": 28,
+        "height": 3
+      },
+      {
+        "name": "bottom_bottom",
+        "x": 31,
+        "y": 0,
+        "width": 28,
+        "height": 3
+      },
+      {
+        "name": "bottom_right",
+        "x": 0,
+        "y": 3,
+        "width": 3,
+        "height": 16
+      },
+      {
+        "name": "bottom_front",
+        "x": 3,
+        "y": 3,
+        "width": 28,
+        "height": 16
+      },
+      {
+        "name": "bottom_left",
+        "x": 31,
+        "y": 3,
+        "width": 3,
+        "height": 16
+      },
+      {
+        "name": "bottom_back",
+        "x": 34,
+        "y": 3,
+        "width": 28,
+        "height": 16
+      },
+      {
+        "name": "back_top",
+        "x": 2,
+        "y": 19,
+        "width": 18,
+        "height": 2
+      },
+      {
+        "name": "back_bottom",
+        "x": 20,
+        "y": 19,
+        "width": 18,
+        "height": 2
+      },
+      {
+        "name": "back_right",
+        "x": 0,
+        "y": 21,
+        "width": 2,
+        "height": 6
+      },
+      {
+        "name": "back_front",
+        "x": 2,
+        "y": 21,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "name": "back_left",
+        "x": 20,
+        "y": 21,
+        "width": 2,
+        "height": 6
+      },
+      {
+        "name": "back_back",
+        "x": 22,
+        "y": 21,
+        "width": 18,
+        "height": 6
+      },
+      {
+        "name": "front_top",
+        "x": 2,
+        "y": 27,
+        "width": 16,
+        "height": 2
+      },
+      {
+        "name": "front_bottom",
+        "x": 18,
+        "y": 27,
+        "width": 16,
+        "height": 2
+      },
+      {
+        "name": "front_right",
+        "x": 0,
+        "y": 29,
+        "width": 2,
+        "height": 6
+      },
+      {
+        "name": "front_front",
+        "x": 2,
+        "y": 29,
+        "width": 16,
+        "height": 6
+      },
+      {
+        "name": "front_left",
+        "x": 18,
+        "y": 29,
+        "width": 2,
+        "height": 6
+      },
+      {
+        "name": "front_back",
+        "x": 20,
+        "y": 29,
+        "width": 16,
+        "height": 6
+      },
+      {
+        "name": "right_top",
+        "x": 2,
+        "y": 35,
+        "width": 28,
+        "height": 2
+      },
+      {
+        "name": "right_bottom",
+        "x": 30,
+        "y": 35,
+        "width": 28,
+        "height": 2
+      },
+      {
+        "name": "right_right",
+        "x": 0,
+        "y": 37,
+        "width": 2,
+        "height": 6
+      },
+      {
+        "name": "right_front",
+        "x": 2,
+        "y": 37,
+        "width": 28,
+        "height": 6
+      },
+      {
+        "name": "right_left",
+        "x": 30,
+        "y": 37,
+        "width": 2,
+        "height": 6
+      },
+      {
+        "name": "right_back",
+        "x": 32,
+        "y": 37,
+        "width": 28,
+        "height": 6
+      },
+      {
+        "name": "left_top",
+        "x": 2,
+        "y": 43,
+        "width": 28,
+        "height": 2
+      },
+      {
+        "name": "left_bottom",
+        "x": 30,
+        "y": 43,
+        "width": 28,
+        "height": 2
+      },
+      {
+        "name": "left_right",
+        "x": 0,
+        "y": 45,
+        "width": 2,
+        "height": 6
+      },
+      {
+        "name": "left_front",
+        "x": 2,
+        "y": 45,
+        "width": 28,
+        "height": 6
+      },
+      {
+        "name": "left_left",
+        "x": 30,
+        "y": 45,
+        "width": 2,
+        "height": 6
+      },
+      {
+        "name": "left_back",
+        "x": 32,
+        "y": 45,
+        "width": 28,
+        "height": 6
+      },
+      {
+        "name": "left_paddle_0_top",
+        "x": 80,
+        "y": 0,
+        "width": 2,
+        "height": 18
+      },
+      {
+        "name": "left_paddle_0_bottom",
+        "x": 82,
+        "y": 0,
+        "width": 2,
+        "height": 18
+      },
+      {
+        "name": "left_paddle_0_right",
+        "x": 62,
+        "y": 18,
+        "width": 18,
+        "height": 2
+      },
+      {
+        "name": "left_paddle_0_front",
+        "x": 80,
+        "y": 18,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_paddle_0_left",
+        "x": 82,
+        "y": 18,
+        "width": 18,
+        "height": 2
+      },
+      {
+        "name": "left_paddle_0_back",
+        "x": 100,
+        "y": 18,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_paddle_1_top",
+        "x": 69,
+        "y": 0,
+        "width": 1,
+        "height": 7
+      },
+      {
+        "name": "left_paddle_1_bottom",
+        "x": 70,
+        "y": 0,
+        "width": 1,
+        "height": 7
+      },
+      {
+        "name": "left_paddle_1_right",
+        "x": 62,
+        "y": 7,
+        "width": 7,
+        "height": 6
+      },
+      {
+        "name": "left_paddle_1_front",
+        "x": 69,
+        "y": 7,
+        "width": 1,
+        "height": 6
+      },
+      {
+        "name": "left_paddle_1_left",
+        "x": 70,
+        "y": 7,
+        "width": 7,
+        "height": 6
+      },
+      {
+        "name": "left_paddle_1_back",
+        "x": 77,
+        "y": 7,
+        "width": 1,
+        "height": 6
+      },
+      {
+        "name": "right_paddle_0_top",
+        "x": 80,
+        "y": 20,
+        "width": 2,
+        "height": 18
+      },
+      {
+        "name": "right_paddle_0_bottom",
+        "x": 82,
+        "y": 20,
+        "width": 2,
+        "height": 18
+      },
+      {
+        "name": "right_paddle_0_right",
+        "x": 62,
+        "y": 38,
+        "width": 18,
+        "height": 2
+      },
+      {
+        "name": "right_paddle_0_front",
+        "x": 80,
+        "y": 38,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_paddle_0_left",
+        "x": 82,
+        "y": 38,
+        "width": 18,
+        "height": 2
+      },
+      {
+        "name": "right_paddle_0_back",
+        "x": 100,
+        "y": 38,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_paddle_1_top",
+        "x": 69,
+        "y": 20,
+        "width": 1,
+        "height": 7
+      },
+      {
+        "name": "right_paddle_1_bottom",
+        "x": 70,
+        "y": 20,
+        "width": 1,
+        "height": 7
+      },
+      {
+        "name": "right_paddle_1_right",
+        "x": 62,
+        "y": 27,
+        "width": 7,
+        "height": 6
+      },
+      {
+        "name": "right_paddle_1_front",
+        "x": 69,
+        "y": 27,
+        "width": 1,
+        "height": 6
+      },
+      {
+        "name": "right_paddle_1_left",
+        "x": 70,
+        "y": 27,
+        "width": 7,
+        "height": 6
+      },
+      {
+        "name": "right_paddle_1_back",
+        "x": 77,
+        "y": 27,
+        "width": 1,
+        "height": 6
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/boat/acacia.png",
+      "minecraft/textures/entity/boat/bamboo.png",
+      "minecraft/textures/entity/boat/birch.png",
+      "minecraft/textures/entity/boat/cherry.png",
+      "minecraft/textures/entity/boat/dark_oak.png",
+      "minecraft/textures/entity/boat/jungle.png",
+      "minecraft/textures/entity/boat/mangrove.png",
+      "minecraft/textures/entity/boat/oak.png",
+      "minecraft/textures/entity/boat/pale_oak.png",
+      "minecraft/textures/entity/boat/spruce.png"
+    ]
+  }
+}

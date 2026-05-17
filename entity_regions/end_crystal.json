@@ -1,0 +1,140 @@
+{
+  "end_crystal": {
+    "texture_size": [
+      64,
+      32
+    ],
+    "regions": [
+      {
+        "name": "outer_glass_top",
+        "x": 8,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "outer_glass_bottom",
+        "x": 16,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "outer_glass_right",
+        "x": 0,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "outer_glass_front",
+        "x": 8,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "outer_glass_left",
+        "x": 16,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "outer_glass_back",
+        "x": 24,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube_top",
+        "x": 40,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube_bottom",
+        "x": 48,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube_right",
+        "x": 32,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube_front",
+        "x": 40,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube_left",
+        "x": 48,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube_back",
+        "x": 56,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "base_top",
+        "x": 12,
+        "y": 16,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "base_bottom",
+        "x": 24,
+        "y": 16,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "base_right",
+        "x": 0,
+        "y": 28,
+        "width": 12,
+        "height": 4
+      },
+      {
+        "name": "base_front",
+        "x": 12,
+        "y": 28,
+        "width": 12,
+        "height": 4
+      },
+      {
+        "name": "base_left",
+        "x": 24,
+        "y": 28,
+        "width": 12,
+        "height": 4
+      },
+      {
+        "name": "base_back",
+        "x": 36,
+        "y": 28,
+        "width": 12,
+        "height": 4
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/end_crystal/end_crystal.png",
+      "minecraft/textures/entity/end_crystal/end_crystal_beam.png"
+    ]
+  }
+}

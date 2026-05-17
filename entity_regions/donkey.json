@@ -1,0 +1,98 @@
+{
+  "donkey": {
+    "texture_size": [
+      64,
+      64
+    ],
+    "regions": [
+      {
+        "name": "left_chest_top",
+        "x": 30,
+        "y": 21,
+        "width": 8,
+        "height": 3
+      },
+      {
+        "name": "left_chest_bottom",
+        "x": 38,
+        "y": 21,
+        "width": 8,
+        "height": 3
+      },
+      {
+        "name": "left_chest_right",
+        "x": 26,
+        "y": 24,
+        "width": 3,
+        "height": 8
+      },
+      {
+        "name": "left_chest_front",
+        "x": 29,
+        "y": 24,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "left_chest_left",
+        "x": 37,
+        "y": 24,
+        "width": 3,
+        "height": 8
+      },
+      {
+        "name": "left_chest_back",
+        "x": 40,
+        "y": 24,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "left_ear_top",
+        "x": 1,
+        "y": 12,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "name": "left_ear_bottom",
+        "x": 3,
+        "y": 12,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "name": "left_ear_right",
+        "x": 0,
+        "y": 13,
+        "width": 1,
+        "height": 7
+      },
+      {
+        "name": "left_ear_front",
+        "x": 1,
+        "y": 13,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "left_ear_left",
+        "x": 3,
+        "y": 13,
+        "width": 1,
+        "height": 7
+      },
+      {
+        "name": "left_ear_back",
+        "x": 4,
+        "y": 13,
+        "width": 2,
+        "height": 7
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/horse/donkey.png",
+      "minecraft/textures/entity/horse/mule.png"
+    ]
+  }
+}

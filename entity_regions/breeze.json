@@ -1,0 +1,435 @@
+{
+  "breeze": {
+    "texture_size": [
+      32,
+      32
+    ],
+    "regions": [
+      {
+        "name": "rod_1_top",
+        "x": 2,
+        "y": 17,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "rod_1_bottom",
+        "x": 4,
+        "y": 17,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "rod_1_right",
+        "x": 0,
+        "y": 19,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "rod_1_front",
+        "x": 2,
+        "y": 19,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "rod_1_left",
+        "x": 4,
+        "y": 19,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "rod_1_back",
+        "x": 6,
+        "y": 19,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "head_0_top",
+        "x": 8,
+        "y": 24,
+        "width": 10,
+        "height": 4
+      },
+      {
+        "name": "head_0_bottom",
+        "x": 18,
+        "y": 24,
+        "width": 10,
+        "height": 4
+      },
+      {
+        "name": "head_0_right",
+        "x": 4,
+        "y": 28,
+        "width": 4,
+        "height": 3
+      },
+      {
+        "name": "head_0_front",
+        "x": 8,
+        "y": 28,
+        "width": 10,
+        "height": 3
+      },
+      {
+        "name": "head_0_left",
+        "x": 18,
+        "y": 28,
+        "width": 4,
+        "height": 3
+      },
+      {
+        "name": "head_0_back",
+        "x": 22,
+        "y": 28,
+        "width": 10,
+        "height": 3
+      },
+      {
+        "name": "head_1_top",
+        "x": 8,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_1_bottom",
+        "x": 16,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_1_right",
+        "x": 0,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_1_front",
+        "x": 8,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_1_left",
+        "x": 16,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_1_back",
+        "x": 24,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "wind_bottom_top",
+        "x": 6,
+        "y": 83,
+        "width": 5,
+        "height": 5
+      },
+      {
+        "name": "wind_bottom_bottom",
+        "x": 11,
+        "y": 83,
+        "width": 5,
+        "height": 5
+      },
+      {
+        "name": "wind_bottom_right",
+        "x": 1,
+        "y": 88,
+        "width": 5,
+        "height": 7
+      },
+      {
+        "name": "wind_bottom_front",
+        "x": 6,
+        "y": 88,
+        "width": 5,
+        "height": 7
+      },
+      {
+        "name": "wind_bottom_left",
+        "x": 11,
+        "y": 88,
+        "width": 5,
+        "height": 7
+      },
+      {
+        "name": "wind_bottom_back",
+        "x": 16,
+        "y": 88,
+        "width": 5,
+        "height": 7
+      },
+      {
+        "name": "wind_mid_0_top",
+        "x": 86,
+        "y": 28,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "wind_mid_0_bottom",
+        "x": 98,
+        "y": 28,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "wind_mid_0_right",
+        "x": 74,
+        "y": 40,
+        "width": 12,
+        "height": 6
+      },
+      {
+        "name": "wind_mid_0_front",
+        "x": 86,
+        "y": 40,
+        "width": 12,
+        "height": 6
+      },
+      {
+        "name": "wind_mid_0_left",
+        "x": 98,
+        "y": 40,
+        "width": 12,
+        "height": 6
+      },
+      {
+        "name": "wind_mid_0_back",
+        "x": 110,
+        "y": 40,
+        "width": 12,
+        "height": 6
+      },
+      {
+        "name": "wind_mid_1_top",
+        "x": 86,
+        "y": 32,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "wind_mid_1_bottom",
+        "x": 94,
+        "y": 32,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "wind_mid_1_right",
+        "x": 78,
+        "y": 40,
+        "width": 8,
+        "height": 6
+      },
+      {
+        "name": "wind_mid_1_front",
+        "x": 86,
+        "y": 40,
+        "width": 8,
+        "height": 6
+      },
+      {
+        "name": "wind_mid_1_left",
+        "x": 94,
+        "y": 40,
+        "width": 8,
+        "height": 6
+      },
+      {
+        "name": "wind_mid_1_back",
+        "x": 102,
+        "y": 40,
+        "width": 8,
+        "height": 6
+      },
+      {
+        "name": "wind_mid_2_top",
+        "x": 54,
+        "y": 71,
+        "width": 5,
+        "height": 5
+      },
+      {
+        "name": "wind_mid_2_bottom",
+        "x": 59,
+        "y": 71,
+        "width": 5,
+        "height": 5
+      },
+      {
+        "name": "wind_mid_2_right",
+        "x": 49,
+        "y": 76,
+        "width": 5,
+        "height": 6
+      },
+      {
+        "name": "wind_mid_2_front",
+        "x": 54,
+        "y": 76,
+        "width": 5,
+        "height": 6
+      },
+      {
+        "name": "wind_mid_2_left",
+        "x": 59,
+        "y": 76,
+        "width": 5,
+        "height": 6
+      },
+      {
+        "name": "wind_mid_2_back",
+        "x": 64,
+        "y": 76,
+        "width": 5,
+        "height": 6
+      },
+      {
+        "name": "wind_top_0_top",
+        "x": 18,
+        "y": 0,
+        "width": 18,
+        "height": 18
+      },
+      {
+        "name": "wind_top_0_bottom",
+        "x": 36,
+        "y": 0,
+        "width": 18,
+        "height": 18
+      },
+      {
+        "name": "wind_top_0_right",
+        "x": 0,
+        "y": 18,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "name": "wind_top_0_front",
+        "x": 18,
+        "y": 18,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "name": "wind_top_0_left",
+        "x": 36,
+        "y": 18,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "name": "wind_top_0_back",
+        "x": 54,
+        "y": 18,
+        "width": 18,
+        "height": 8
+      },
+      {
+        "name": "wind_top_1_top",
+        "x": 18,
+        "y": 6,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "wind_top_1_bottom",
+        "x": 30,
+        "y": 6,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "wind_top_1_right",
+        "x": 6,
+        "y": 18,
+        "width": 12,
+        "height": 8
+      },
+      {
+        "name": "wind_top_1_front",
+        "x": 18,
+        "y": 18,
+        "width": 12,
+        "height": 8
+      },
+      {
+        "name": "wind_top_1_left",
+        "x": 30,
+        "y": 18,
+        "width": 12,
+        "height": 8
+      },
+      {
+        "name": "wind_top_1_back",
+        "x": 42,
+        "y": 18,
+        "width": 12,
+        "height": 8
+      },
+      {
+        "name": "wind_top_2_top",
+        "x": 110,
+        "y": 57,
+        "width": 5,
+        "height": 5
+      },
+      {
+        "name": "wind_top_2_bottom",
+        "x": 115,
+        "y": 57,
+        "width": 5,
+        "height": 5
+      },
+      {
+        "name": "wind_top_2_right",
+        "x": 105,
+        "y": 62,
+        "width": 5,
+        "height": 8
+      },
+      {
+        "name": "wind_top_2_front",
+        "x": 110,
+        "y": 62,
+        "width": 5,
+        "height": 8
+      },
+      {
+        "name": "wind_top_2_left",
+        "x": 115,
+        "y": 62,
+        "width": 5,
+        "height": 8
+      },
+      {
+        "name": "wind_top_2_back",
+        "x": 120,
+        "y": 62,
+        "width": 5,
+        "height": 8
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/breeze/breeze.png",
+      "minecraft/textures/entity/breeze/breeze_eyes.png",
+      "minecraft/textures/entity/breeze/breeze_wind.png"
+    ]
+  }
+}

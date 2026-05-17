@@ -1,0 +1,69 @@
+{
+  "tadpole": {
+    "texture_size": [
+      16,
+      16
+    ],
+    "regions": [
+      {
+        "name": "body_top",
+        "x": 3,
+        "y": 0,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "body_bottom",
+        "x": 6,
+        "y": 0,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "body_right",
+        "x": 0,
+        "y": 3,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "body_front",
+        "x": 3,
+        "y": 3,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "body_left",
+        "x": 6,
+        "y": 3,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "body_back",
+        "x": 9,
+        "y": 3,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "tail_right",
+        "x": 0,
+        "y": 7,
+        "width": 7,
+        "height": 2
+      },
+      {
+        "name": "tail_left",
+        "x": 7,
+        "y": 7,
+        "width": 7,
+        "height": 2
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/tadpole/tadpole.png"
+    ]
+  }
+}

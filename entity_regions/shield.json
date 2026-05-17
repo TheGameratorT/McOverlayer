@@ -1,0 +1,139 @@
+{
+  "shield": {
+    "texture_size": [
+      64,
+      64
+    ],
+    "regions": [
+      {
+        "name": "plate_top",
+        "x": 1,
+        "y": 0,
+        "width": 12,
+        "height": 1
+      },
+      {
+        "name": "plate_bottom",
+        "x": 13,
+        "y": 0,
+        "width": 12,
+        "height": 1
+      },
+      {
+        "name": "plate_right",
+        "x": 0,
+        "y": 1,
+        "width": 1,
+        "height": 22
+      },
+      {
+        "name": "plate_front",
+        "x": 1,
+        "y": 1,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "name": "plate_left",
+        "x": 13,
+        "y": 1,
+        "width": 1,
+        "height": 22
+      },
+      {
+        "name": "plate_back",
+        "x": 14,
+        "y": 1,
+        "width": 12,
+        "height": 22
+      },
+      {
+        "name": "handle_top",
+        "x": 32,
+        "y": 0,
+        "width": 2,
+        "height": 6
+      },
+      {
+        "name": "handle_bottom",
+        "x": 34,
+        "y": 0,
+        "width": 2,
+        "height": 6
+      },
+      {
+        "name": "handle_right",
+        "x": 26,
+        "y": 6,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "handle_front",
+        "x": 32,
+        "y": 6,
+        "width": 2,
+        "height": 6
+      },
+      {
+        "name": "handle_left",
+        "x": 34,
+        "y": 6,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "handle_back",
+        "x": 40,
+        "y": 6,
+        "width": 2,
+        "height": 6
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/shield/base.png",
+      "minecraft/textures/entity/shield/border.png",
+      "minecraft/textures/entity/shield/bricks.png",
+      "minecraft/textures/entity/shield/circle.png",
+      "minecraft/textures/entity/shield/creeper.png",
+      "minecraft/textures/entity/shield/cross.png",
+      "minecraft/textures/entity/shield/curly_border.png",
+      "minecraft/textures/entity/shield/diagonal_left.png",
+      "minecraft/textures/entity/shield/diagonal_right.png",
+      "minecraft/textures/entity/shield/diagonal_up_left.png",
+      "minecraft/textures/entity/shield/diagonal_up_right.png",
+      "minecraft/textures/entity/shield/flow.png",
+      "minecraft/textures/entity/shield/flower.png",
+      "minecraft/textures/entity/shield/globe.png",
+      "minecraft/textures/entity/shield/gradient.png",
+      "minecraft/textures/entity/shield/gradient_up.png",
+      "minecraft/textures/entity/shield/guster.png",
+      "minecraft/textures/entity/shield/half_horizontal.png",
+      "minecraft/textures/entity/shield/half_horizontal_bottom.png",
+      "minecraft/textures/entity/shield/half_vertical.png",
+      "minecraft/textures/entity/shield/half_vertical_right.png",
+      "minecraft/textures/entity/shield/mojang.png",
+      "minecraft/textures/entity/shield/piglin.png",
+      "minecraft/textures/entity/shield/rhombus.png",
+      "minecraft/textures/entity/shield/skull.png",
+      "minecraft/textures/entity/shield/small_stripes.png",
+      "minecraft/textures/entity/shield/square_bottom_left.png",
+      "minecraft/textures/entity/shield/square_bottom_right.png",
+      "minecraft/textures/entity/shield/square_top_left.png",
+      "minecraft/textures/entity/shield/square_top_right.png",
+      "minecraft/textures/entity/shield/straight_cross.png",
+      "minecraft/textures/entity/shield/stripe_bottom.png",
+      "minecraft/textures/entity/shield/stripe_center.png",
+      "minecraft/textures/entity/shield/stripe_downleft.png",
+      "minecraft/textures/entity/shield/stripe_downright.png",
+      "minecraft/textures/entity/shield/stripe_left.png",
+      "minecraft/textures/entity/shield/stripe_middle.png",
+      "minecraft/textures/entity/shield/stripe_right.png",
+      "minecraft/textures/entity/shield/stripe_top.png",
+      "minecraft/textures/entity/shield/triangle_bottom.png",
+      "minecraft/textures/entity/shield/triangle_top.png",
+      "minecraft/textures/entity/shield/triangles_bottom.png",
+      "minecraft/textures/entity/shield/triangles_top.png"
+    ]
+  }
+}

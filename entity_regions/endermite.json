@@ -1,0 +1,181 @@
+{
+  "endermite": {
+    "texture_size": [
+      64,
+      32
+    ],
+    "regions": [
+      {
+        "name": "segment0_top",
+        "x": 2,
+        "y": 0,
+        "width": 4,
+        "height": 2
+      },
+      {
+        "name": "segment0_bottom",
+        "x": 6,
+        "y": 0,
+        "width": 4,
+        "height": 2
+      },
+      {
+        "name": "segment0_right",
+        "x": 0,
+        "y": 2,
+        "width": 2,
+        "height": 3
+      },
+      {
+        "name": "segment0_front",
+        "x": 2,
+        "y": 2,
+        "width": 4,
+        "height": 3
+      },
+      {
+        "name": "segment0_left",
+        "x": 6,
+        "y": 2,
+        "width": 2,
+        "height": 3
+      },
+      {
+        "name": "segment0_back",
+        "x": 8,
+        "y": 2,
+        "width": 4,
+        "height": 3
+      },
+      {
+        "name": "segment1_top",
+        "x": 3,
+        "y": 5,
+        "width": 6,
+        "height": 5
+      },
+      {
+        "name": "segment1_bottom",
+        "x": 9,
+        "y": 5,
+        "width": 6,
+        "height": 5
+      },
+      {
+        "name": "segment1_right",
+        "x": 0,
+        "y": 10,
+        "width": 5,
+        "height": 4
+      },
+      {
+        "name": "segment1_front",
+        "x": 5,
+        "y": 10,
+        "width": 6,
+        "height": 4
+      },
+      {
+        "name": "segment1_left",
+        "x": 11,
+        "y": 10,
+        "width": 5,
+        "height": 4
+      },
+      {
+        "name": "segment1_back",
+        "x": 16,
+        "y": 10,
+        "width": 6,
+        "height": 4
+      },
+      {
+        "name": "segment2_top",
+        "x": 1,
+        "y": 14,
+        "width": 3,
+        "height": 1
+      },
+      {
+        "name": "segment2_bottom",
+        "x": 4,
+        "y": 14,
+        "width": 3,
+        "height": 1
+      },
+      {
+        "name": "segment2_right",
+        "x": 0,
+        "y": 15,
+        "width": 1,
+        "height": 3
+      },
+      {
+        "name": "segment2_front",
+        "x": 1,
+        "y": 15,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "segment2_left",
+        "x": 4,
+        "y": 15,
+        "width": 1,
+        "height": 3
+      },
+      {
+        "name": "segment2_back",
+        "x": 5,
+        "y": 15,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "segment3_top",
+        "x": 0,
+        "y": 18,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "segment3_bottom",
+        "x": 1,
+        "y": 18,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "segment3_right",
+        "x": 0,
+        "y": 19,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "segment3_front",
+        "x": 1,
+        "y": 19,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "segment3_left",
+        "x": 2,
+        "y": 19,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "segment3_back",
+        "x": 3,
+        "y": 19,
+        "width": 1,
+        "height": 2
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/endermite.png"
+    ]
+  }
+}

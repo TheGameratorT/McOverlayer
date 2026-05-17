@@ -1,0 +1,349 @@
+{
+  "turtle": {
+    "texture_size": [
+      128,
+      64
+    ],
+    "regions": [
+      {
+        "name": "head_top",
+        "x": 9,
+        "y": 0,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "head_bottom",
+        "x": 15,
+        "y": 0,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "head_right",
+        "x": 3,
+        "y": 6,
+        "width": 6,
+        "height": 5
+      },
+      {
+        "name": "head_front",
+        "x": 9,
+        "y": 6,
+        "width": 6,
+        "height": 5
+      },
+      {
+        "name": "head_left",
+        "x": 15,
+        "y": 6,
+        "width": 6,
+        "height": 5
+      },
+      {
+        "name": "head_back",
+        "x": 21,
+        "y": 6,
+        "width": 6,
+        "height": 5
+      },
+      {
+        "name": "body_0_top",
+        "x": 13,
+        "y": 37,
+        "width": 19,
+        "height": 6
+      },
+      {
+        "name": "body_0_bottom",
+        "x": 32,
+        "y": 37,
+        "width": 19,
+        "height": 6
+      },
+      {
+        "name": "body_0_right",
+        "x": 7,
+        "y": 43,
+        "width": 6,
+        "height": 20
+      },
+      {
+        "name": "body_0_front",
+        "x": 13,
+        "y": 43,
+        "width": 19,
+        "height": 20
+      },
+      {
+        "name": "body_0_left",
+        "x": 32,
+        "y": 43,
+        "width": 6,
+        "height": 20
+      },
+      {
+        "name": "body_0_back",
+        "x": 38,
+        "y": 43,
+        "width": 19,
+        "height": 20
+      },
+      {
+        "name": "body_1_top",
+        "x": 34,
+        "y": 1,
+        "width": 11,
+        "height": 3
+      },
+      {
+        "name": "body_1_bottom",
+        "x": 45,
+        "y": 1,
+        "width": 11,
+        "height": 3
+      },
+      {
+        "name": "body_1_right",
+        "x": 31,
+        "y": 4,
+        "width": 3,
+        "height": 18
+      },
+      {
+        "name": "body_1_front",
+        "x": 34,
+        "y": 4,
+        "width": 11,
+        "height": 18
+      },
+      {
+        "name": "body_1_left",
+        "x": 45,
+        "y": 4,
+        "width": 3,
+        "height": 18
+      },
+      {
+        "name": "body_1_back",
+        "x": 48,
+        "y": 4,
+        "width": 11,
+        "height": 18
+      },
+      {
+        "name": "egg_belly_top",
+        "x": 71,
+        "y": 33,
+        "width": 9,
+        "height": 1
+      },
+      {
+        "name": "egg_belly_bottom",
+        "x": 80,
+        "y": 33,
+        "width": 9,
+        "height": 1
+      },
+      {
+        "name": "egg_belly_right",
+        "x": 70,
+        "y": 34,
+        "width": 1,
+        "height": 18
+      },
+      {
+        "name": "egg_belly_front",
+        "x": 71,
+        "y": 34,
+        "width": 9,
+        "height": 18
+      },
+      {
+        "name": "egg_belly_left",
+        "x": 80,
+        "y": 34,
+        "width": 1,
+        "height": 18
+      },
+      {
+        "name": "egg_belly_back",
+        "x": 81,
+        "y": 34,
+        "width": 9,
+        "height": 18
+      },
+      {
+        "name": "right_hind_leg_top",
+        "x": 11,
+        "y": 23,
+        "width": 4,
+        "height": 10
+      },
+      {
+        "name": "right_hind_leg_bottom",
+        "x": 15,
+        "y": 23,
+        "width": 4,
+        "height": 10
+      },
+      {
+        "name": "right_hind_leg_right",
+        "x": 1,
+        "y": 33,
+        "width": 10,
+        "height": 1
+      },
+      {
+        "name": "right_hind_leg_front",
+        "x": 11,
+        "y": 33,
+        "width": 4,
+        "height": 1
+      },
+      {
+        "name": "right_hind_leg_left",
+        "x": 15,
+        "y": 33,
+        "width": 10,
+        "height": 1
+      },
+      {
+        "name": "right_hind_leg_back",
+        "x": 25,
+        "y": 33,
+        "width": 4,
+        "height": 1
+      },
+      {
+        "name": "left_hind_leg_top",
+        "x": 11,
+        "y": 12,
+        "width": 4,
+        "height": 10
+      },
+      {
+        "name": "left_hind_leg_bottom",
+        "x": 15,
+        "y": 12,
+        "width": 4,
+        "height": 10
+      },
+      {
+        "name": "left_hind_leg_right",
+        "x": 1,
+        "y": 22,
+        "width": 10,
+        "height": 1
+      },
+      {
+        "name": "left_hind_leg_front",
+        "x": 11,
+        "y": 22,
+        "width": 4,
+        "height": 1
+      },
+      {
+        "name": "left_hind_leg_left",
+        "x": 15,
+        "y": 22,
+        "width": 10,
+        "height": 1
+      },
+      {
+        "name": "left_hind_leg_back",
+        "x": 25,
+        "y": 22,
+        "width": 4,
+        "height": 1
+      },
+      {
+        "name": "right_front_leg_top",
+        "x": 32,
+        "y": 30,
+        "width": 13,
+        "height": 5
+      },
+      {
+        "name": "right_front_leg_bottom",
+        "x": 45,
+        "y": 30,
+        "width": 13,
+        "height": 5
+      },
+      {
+        "name": "right_front_leg_right",
+        "x": 27,
+        "y": 35,
+        "width": 5,
+        "height": 1
+      },
+      {
+        "name": "right_front_leg_front",
+        "x": 32,
+        "y": 35,
+        "width": 13,
+        "height": 1
+      },
+      {
+        "name": "right_front_leg_left",
+        "x": 45,
+        "y": 35,
+        "width": 5,
+        "height": 1
+      },
+      {
+        "name": "right_front_leg_back",
+        "x": 50,
+        "y": 35,
+        "width": 13,
+        "height": 1
+      },
+      {
+        "name": "left_front_leg_top",
+        "x": 32,
+        "y": 24,
+        "width": 13,
+        "height": 5
+      },
+      {
+        "name": "left_front_leg_bottom",
+        "x": 45,
+        "y": 24,
+        "width": 13,
+        "height": 5
+      },
+      {
+        "name": "left_front_leg_right",
+        "x": 27,
+        "y": 29,
+        "width": 5,
+        "height": 1
+      },
+      {
+        "name": "left_front_leg_front",
+        "x": 32,
+        "y": 29,
+        "width": 13,
+        "height": 1
+      },
+      {
+        "name": "left_front_leg_left",
+        "x": 45,
+        "y": 29,
+        "width": 5,
+        "height": 1
+      },
+      {
+        "name": "left_front_leg_back",
+        "x": 50,
+        "y": 29,
+        "width": 13,
+        "height": 1
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/turtle/big_sea_turtle.png"
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "chest_left": {
+    "texture_size": [
+      64,
+      64
+    ],
+    "regions": [
+      {
+        "name": "bottom_top",
+        "x": 14,
+        "y": 19,
+        "width": 15,
+        "height": 14,
+        "flip": "v"
+      },
+      {
+        "name": "bottom_bottom",
+        "x": 29,
+        "y": 19,
+        "width": 15,
+        "height": 14,
+        "flip": "v"
+      },
+      {
+        "name": "bottom_right",
+        "x": 0,
+        "y": 33,
+        "width": 14,
+        "height": 10,
+        "flip": "v"
+      },
+      {
+        "name": "bottom_front",
+        "x": 14,
+        "y": 33,
+        "width": 15,
+        "height": 10,
+        "flip": "v"
+      },
+      {
+        "name": "bottom_left",
+        "x": 29,
+        "y": 33,
+        "width": 14,
+        "height": 10,
+        "flip": "v"
+      },
+      {
+        "name": "bottom_back",
+        "x": 43,
+        "y": 33,
+        "width": 15,
+        "height": 10,
+        "flip": "v"
+      },
+      {
+        "name": "lid_top",
+        "x": 14,
+        "y": 0,
+        "width": 15,
+        "height": 14
+      },
+      {
+        "name": "lid_bottom",
+        "x": 29,
+        "y": 0,
+        "width": 15,
+        "height": 14,
+        "flip": "v"
+      },
+      {
+        "name": "lid_right",
+        "x": 0,
+        "y": 14,
+        "width": 14,
+        "height": 5,
+        "flip": "v"
+      },
+      {
+        "name": "lid_front",
+        "x": 14,
+        "y": 14,
+        "width": 15,
+        "height": 5,
+        "flip": "v"
+      },
+      {
+        "name": "lid_left",
+        "x": 29,
+        "y": 14,
+        "width": 14,
+        "height": 5,
+        "flip": "v"
+      },
+      {
+        "name": "lid_back",
+        "x": 43,
+        "y": 14,
+        "width": 15,
+        "height": 5,
+        "flip": "v"
+      },
+      {
+        "name": "lock_top",
+        "x": 1,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "flip": "v"
+      },
+      {
+        "name": "lock_bottom",
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "flip": "v"
+      },
+      {
+        "name": "lock_right",
+        "x": 0,
+        "y": 1,
+        "width": 1,
+        "height": 4,
+        "flip": "v"
+      },
+      {
+        "name": "lock_front",
+        "x": 1,
+        "y": 1,
+        "width": 1,
+        "height": 4,
+        "flip": "v"
+      },
+      {
+        "name": "lock_left",
+        "x": 2,
+        "y": 1,
+        "width": 1,
+        "height": 4,
+        "flip": "v"
+      },
+      {
+        "name": "lock_back",
+        "x": 3,
+        "y": 1,
+        "width": 1,
+        "height": 4,
+        "flip": "v"
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/chest/christmas_left.png",
+      "minecraft/textures/entity/chest/copper_exposed_left.png",
+      "minecraft/textures/entity/chest/copper_left.png",
+      "minecraft/textures/entity/chest/copper_oxidized_left.png",
+      "minecraft/textures/entity/chest/copper_weathered_left.png",
+      "minecraft/textures/entity/chest/normal_left.png",
+      "minecraft/textures/entity/chest/trapped_left.png"
+    ]
+  }
+}

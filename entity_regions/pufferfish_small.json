@@ -1,0 +1,167 @@
+{
+  "pufferfish_small": {
+    "texture_size": [
+      32,
+      32
+    ],
+    "regions": [
+      {
+        "name": "body_top",
+        "x": 3,
+        "y": 27,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "body_bottom",
+        "x": 6,
+        "y": 27,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "body_right",
+        "x": 0,
+        "y": 30,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "body_front",
+        "x": 3,
+        "y": 30,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "body_left",
+        "x": 6,
+        "y": 30,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "body_back",
+        "x": 9,
+        "y": 30,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "right_eye_top",
+        "x": 25,
+        "y": 6,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "right_eye_bottom",
+        "x": 26,
+        "y": 6,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "right_eye_right",
+        "x": 24,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "right_eye_front",
+        "x": 25,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "right_eye_left",
+        "x": 26,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "right_eye_back",
+        "x": 27,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "left_eye_top",
+        "x": 29,
+        "y": 6,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "left_eye_bottom",
+        "x": 30,
+        "y": 6,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "left_eye_right",
+        "x": 28,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "left_eye_front",
+        "x": 29,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "left_eye_left",
+        "x": 30,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "left_eye_back",
+        "x": 31,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "back_fin_top",
+        "x": 0,
+        "y": 0,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "back_fin_bottom",
+        "x": 3,
+        "y": 0,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "right_fin_top",
+        "x": 27,
+        "y": 0,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "right_fin_bottom",
+        "x": 28,
+        "y": 0,
+        "width": 1,
+        "height": 2
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/fish/pufferfish.png"
+    ]
+  }
+}

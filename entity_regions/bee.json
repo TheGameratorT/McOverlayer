@@ -1,0 +1,213 @@
+{
+  "bee": {
+    "texture_size": [
+      64,
+      64
+    ],
+    "regions": [
+      {
+        "name": "body_top",
+        "x": 10,
+        "y": 0,
+        "width": 7,
+        "height": 10
+      },
+      {
+        "name": "body_bottom",
+        "x": 17,
+        "y": 0,
+        "width": 7,
+        "height": 10
+      },
+      {
+        "name": "body_right",
+        "x": 0,
+        "y": 10,
+        "width": 10,
+        "height": 7
+      },
+      {
+        "name": "body_front",
+        "x": 10,
+        "y": 10,
+        "width": 7,
+        "height": 7
+      },
+      {
+        "name": "body_left",
+        "x": 17,
+        "y": 10,
+        "width": 10,
+        "height": 7
+      },
+      {
+        "name": "body_back",
+        "x": 27,
+        "y": 10,
+        "width": 7,
+        "height": 7
+      },
+      {
+        "name": "stinger_right",
+        "x": 26,
+        "y": 9,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "name": "stinger_left",
+        "x": 28,
+        "y": 9,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "name": "left_antenna_top",
+        "x": 5,
+        "y": 0,
+        "width": 1,
+        "height": 3
+      },
+      {
+        "name": "left_antenna_bottom",
+        "x": 6,
+        "y": 0,
+        "width": 1,
+        "height": 3
+      },
+      {
+        "name": "left_antenna_right",
+        "x": 2,
+        "y": 3,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "left_antenna_front",
+        "x": 5,
+        "y": 3,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "left_antenna_left",
+        "x": 6,
+        "y": 3,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "left_antenna_back",
+        "x": 9,
+        "y": 3,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "right_antenna_top",
+        "x": 5,
+        "y": 3,
+        "width": 1,
+        "height": 3
+      },
+      {
+        "name": "right_antenna_bottom",
+        "x": 6,
+        "y": 3,
+        "width": 1,
+        "height": 3
+      },
+      {
+        "name": "right_antenna_right",
+        "x": 2,
+        "y": 6,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "right_antenna_front",
+        "x": 5,
+        "y": 6,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "right_antenna_left",
+        "x": 6,
+        "y": 6,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "right_antenna_back",
+        "x": 9,
+        "y": 6,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "right_wing_top",
+        "x": 6,
+        "y": 18,
+        "width": 9,
+        "height": 6
+      },
+      {
+        "name": "right_wing_bottom",
+        "x": 15,
+        "y": 18,
+        "width": 9,
+        "height": 6
+      },
+      {
+        "name": "front_legs_front",
+        "x": 26,
+        "y": 1,
+        "width": 7,
+        "height": 2
+      },
+      {
+        "name": "front_legs_back",
+        "x": 33,
+        "y": 1,
+        "width": 7,
+        "height": 2
+      },
+      {
+        "name": "middle_legs_front",
+        "x": 26,
+        "y": 3,
+        "width": 7,
+        "height": 2
+      },
+      {
+        "name": "middle_legs_back",
+        "x": 33,
+        "y": 3,
+        "width": 7,
+        "height": 2
+      },
+      {
+        "name": "back_legs_front",
+        "x": 26,
+        "y": 5,
+        "width": 7,
+        "height": 2
+      },
+      {
+        "name": "back_legs_back",
+        "x": 33,
+        "y": 5,
+        "width": 7,
+        "height": 2
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/bee/bee_angry.png",
+      "minecraft/textures/entity/bee/bee_angry_nectar.png",
+      "minecraft/textures/entity/bee/bee.png",
+      "minecraft/textures/entity/bee/bee_nectar.png",
+      "minecraft/textures/entity/bee/bee_stinger.png"
+    ]
+  }
+}

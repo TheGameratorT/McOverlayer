@@ -1,0 +1,99 @@
+{
+  "sheep": {
+    "texture_size": [
+      64,
+      32
+    ],
+    "regions": [
+      {
+        "name": "head_top",
+        "x": 8,
+        "y": 0,
+        "width": 6,
+        "height": 8
+      },
+      {
+        "name": "head_bottom",
+        "x": 14,
+        "y": 0,
+        "width": 6,
+        "height": 8
+      },
+      {
+        "name": "head_right",
+        "x": 0,
+        "y": 8,
+        "width": 8,
+        "height": 6
+      },
+      {
+        "name": "head_front",
+        "x": 8,
+        "y": 8,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "head_left",
+        "x": 14,
+        "y": 8,
+        "width": 8,
+        "height": 6
+      },
+      {
+        "name": "head_back",
+        "x": 22,
+        "y": 8,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "body_top",
+        "x": 34,
+        "y": 8,
+        "width": 8,
+        "height": 6
+      },
+      {
+        "name": "body_bottom",
+        "x": 42,
+        "y": 8,
+        "width": 8,
+        "height": 6
+      },
+      {
+        "name": "body_right",
+        "x": 28,
+        "y": 14,
+        "width": 6,
+        "height": 16
+      },
+      {
+        "name": "body_front",
+        "x": 34,
+        "y": 14,
+        "width": 8,
+        "height": 16
+      },
+      {
+        "name": "body_left",
+        "x": 42,
+        "y": 14,
+        "width": 6,
+        "height": 16
+      },
+      {
+        "name": "body_back",
+        "x": 48,
+        "y": 14,
+        "width": 8,
+        "height": 16
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/sheep/sheep.png",
+      "minecraft/textures/entity/sheep/sheep_wool.png",
+      "minecraft/textures/entity/sheep/sheep_wool_undercoat.png"
+    ]
+  }
+}

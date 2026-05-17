@@ -1,0 +1,391 @@
+{
+  "magma_cube": {
+    "texture_size": [
+      64,
+      64
+    ],
+    "regions": [
+      {
+        "name": "inside_cube_top",
+        "x": 28,
+        "y": 40,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "inside_cube_bottom",
+        "x": 32,
+        "y": 40,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "inside_cube_right",
+        "x": 24,
+        "y": 44,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "inside_cube_front",
+        "x": 28,
+        "y": 44,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "inside_cube_left",
+        "x": 32,
+        "y": 44,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "inside_cube_back",
+        "x": 36,
+        "y": 44,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "cube0_top",
+        "x": 8,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube0_bottom",
+        "x": 16,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube0_right",
+        "x": 0,
+        "y": 8,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube0_front",
+        "x": 8,
+        "y": 8,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube0_left",
+        "x": 16,
+        "y": 8,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube0_back",
+        "x": 24,
+        "y": 8,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube1_top",
+        "x": 8,
+        "y": 9,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube1_bottom",
+        "x": 16,
+        "y": 9,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube1_right",
+        "x": 0,
+        "y": 17,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube1_front",
+        "x": 8,
+        "y": 17,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube1_left",
+        "x": 16,
+        "y": 17,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube1_back",
+        "x": 24,
+        "y": 17,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube2_top",
+        "x": 8,
+        "y": 18,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube2_bottom",
+        "x": 16,
+        "y": 18,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube2_right",
+        "x": 0,
+        "y": 26,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube2_front",
+        "x": 8,
+        "y": 26,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube2_left",
+        "x": 16,
+        "y": 26,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube2_back",
+        "x": 24,
+        "y": 26,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube3_top",
+        "x": 8,
+        "y": 27,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube3_bottom",
+        "x": 16,
+        "y": 27,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube3_right",
+        "x": 0,
+        "y": 35,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube3_front",
+        "x": 8,
+        "y": 35,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube3_left",
+        "x": 16,
+        "y": 35,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube3_back",
+        "x": 24,
+        "y": 35,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube4_top",
+        "x": 40,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube4_bottom",
+        "x": 48,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube4_right",
+        "x": 32,
+        "y": 8,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube4_front",
+        "x": 40,
+        "y": 8,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube4_left",
+        "x": 48,
+        "y": 8,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube4_back",
+        "x": 56,
+        "y": 8,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube5_top",
+        "x": 40,
+        "y": 9,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube5_bottom",
+        "x": 48,
+        "y": 9,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube5_right",
+        "x": 32,
+        "y": 17,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube5_front",
+        "x": 40,
+        "y": 17,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube5_left",
+        "x": 48,
+        "y": 17,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube5_back",
+        "x": 56,
+        "y": 17,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube6_top",
+        "x": 40,
+        "y": 18,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube6_bottom",
+        "x": 48,
+        "y": 18,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube6_right",
+        "x": 32,
+        "y": 26,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube6_front",
+        "x": 40,
+        "y": 26,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube6_left",
+        "x": 48,
+        "y": 26,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube6_back",
+        "x": 56,
+        "y": 26,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube7_top",
+        "x": 40,
+        "y": 27,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube7_bottom",
+        "x": 48,
+        "y": 27,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube7_right",
+        "x": 32,
+        "y": 35,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube7_front",
+        "x": 40,
+        "y": 35,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube7_left",
+        "x": 48,
+        "y": 35,
+        "width": 8,
+        "height": 1
+      },
+      {
+        "name": "cube7_back",
+        "x": 56,
+        "y": 35,
+        "width": 8,
+        "height": 1
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/slime/magmacube.png"
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "strider": {
+    "texture_size": [
+      64,
+      128
+    ],
+    "regions": [
+      {
+        "name": "right_leg_top",
+        "x": 4,
+        "y": 32,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "right_leg_bottom",
+        "x": 8,
+        "y": 32,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "right_leg_right",
+        "x": 0,
+        "y": 36,
+        "width": 4,
+        "height": 16
+      },
+      {
+        "name": "right_leg_front",
+        "x": 4,
+        "y": 36,
+        "width": 4,
+        "height": 16
+      },
+      {
+        "name": "right_leg_left",
+        "x": 8,
+        "y": 36,
+        "width": 4,
+        "height": 16
+      },
+      {
+        "name": "right_leg_back",
+        "x": 12,
+        "y": 36,
+        "width": 4,
+        "height": 16
+      },
+      {
+        "name": "left_leg_top",
+        "x": 4,
+        "y": 55,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "left_leg_bottom",
+        "x": 8,
+        "y": 55,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "left_leg_right",
+        "x": 0,
+        "y": 59,
+        "width": 4,
+        "height": 16
+      },
+      {
+        "name": "left_leg_front",
+        "x": 4,
+        "y": 59,
+        "width": 4,
+        "height": 16
+      },
+      {
+        "name": "left_leg_left",
+        "x": 8,
+        "y": 59,
+        "width": 4,
+        "height": 16
+      },
+      {
+        "name": "left_leg_back",
+        "x": 12,
+        "y": 59,
+        "width": 4,
+        "height": 16
+      },
+      {
+        "name": "body_top",
+        "x": 16,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "body_bottom",
+        "x": 32,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "body_right",
+        "x": 0,
+        "y": 16,
+        "width": 16,
+        "height": 14
+      },
+      {
+        "name": "body_front",
+        "x": 16,
+        "y": 16,
+        "width": 16,
+        "height": 14
+      },
+      {
+        "name": "body_left",
+        "x": 32,
+        "y": 16,
+        "width": 16,
+        "height": 14
+      },
+      {
+        "name": "body_back",
+        "x": 48,
+        "y": 16,
+        "width": 16,
+        "height": 14
+      },
+      {
+        "name": "right_bottom_bristle_top",
+        "x": 32,
+        "y": 65,
+        "width": 12,
+        "height": 16
+      },
+      {
+        "name": "right_bottom_bristle_bottom",
+        "x": 44,
+        "y": 65,
+        "width": 12,
+        "height": 16
+      },
+      {
+        "name": "right_middle_bristle_top",
+        "x": 32,
+        "y": 49,
+        "width": 12,
+        "height": 16
+      },
+      {
+        "name": "right_middle_bristle_bottom",
+        "x": 44,
+        "y": 49,
+        "width": 12,
+        "height": 16
+      },
+      {
+        "name": "right_top_bristle_top",
+        "x": 32,
+        "y": 33,
+        "width": 12,
+        "height": 16
+      },
+      {
+        "name": "right_top_bristle_bottom",
+        "x": 44,
+        "y": 33,
+        "width": 12,
+        "height": 16
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/strider/strider.png",
+      "minecraft/textures/entity/strider/strider_cold.png"
+    ]
+  }
+}

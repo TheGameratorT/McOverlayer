@@ -1,0 +1,267 @@
+{
+  "wither": {
+    "texture_size": [
+      64,
+      64
+    ],
+    "regions": [
+      {
+        "name": "shoulders_top",
+        "x": 3,
+        "y": 16,
+        "width": 20,
+        "height": 3
+      },
+      {
+        "name": "shoulders_bottom",
+        "x": 23,
+        "y": 16,
+        "width": 20,
+        "height": 3
+      },
+      {
+        "name": "shoulders_right",
+        "x": 0,
+        "y": 19,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "shoulders_front",
+        "x": 3,
+        "y": 19,
+        "width": 20,
+        "height": 3
+      },
+      {
+        "name": "shoulders_left",
+        "x": 23,
+        "y": 19,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "shoulders_back",
+        "x": 26,
+        "y": 19,
+        "width": 20,
+        "height": 3
+      },
+      {
+        "name": "ribcage_0_top",
+        "x": 3,
+        "y": 22,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "ribcage_0_bottom",
+        "x": 6,
+        "y": 22,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "ribcage_0_right",
+        "x": 0,
+        "y": 25,
+        "width": 3,
+        "height": 10
+      },
+      {
+        "name": "ribcage_0_front",
+        "x": 3,
+        "y": 25,
+        "width": 3,
+        "height": 10
+      },
+      {
+        "name": "ribcage_0_left",
+        "x": 6,
+        "y": 25,
+        "width": 3,
+        "height": 10
+      },
+      {
+        "name": "ribcage_0_back",
+        "x": 9,
+        "y": 25,
+        "width": 3,
+        "height": 10
+      },
+      {
+        "name": "ribcage_1_top",
+        "x": 26,
+        "y": 22,
+        "width": 11,
+        "height": 2
+      },
+      {
+        "name": "ribcage_1_bottom",
+        "x": 37,
+        "y": 22,
+        "width": 11,
+        "height": 2
+      },
+      {
+        "name": "ribcage_1_right",
+        "x": 24,
+        "y": 24,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "ribcage_1_front",
+        "x": 26,
+        "y": 24,
+        "width": 11,
+        "height": 2
+      },
+      {
+        "name": "ribcage_1_left",
+        "x": 37,
+        "y": 24,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "ribcage_1_back",
+        "x": 39,
+        "y": 24,
+        "width": 11,
+        "height": 2
+      },
+      {
+        "name": "tail_top",
+        "x": 15,
+        "y": 22,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "tail_bottom",
+        "x": 18,
+        "y": 22,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "tail_right",
+        "x": 12,
+        "y": 25,
+        "width": 3,
+        "height": 6
+      },
+      {
+        "name": "tail_front",
+        "x": 15,
+        "y": 25,
+        "width": 3,
+        "height": 6
+      },
+      {
+        "name": "tail_left",
+        "x": 18,
+        "y": 25,
+        "width": 3,
+        "height": 6
+      },
+      {
+        "name": "tail_back",
+        "x": 21,
+        "y": 25,
+        "width": 3,
+        "height": 6
+      },
+      {
+        "name": "center_head_top",
+        "x": 8,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "center_head_bottom",
+        "x": 16,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "center_head_right",
+        "x": 0,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "center_head_front",
+        "x": 8,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "center_head_left",
+        "x": 16,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "center_head_back",
+        "x": 24,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "right_head_top",
+        "x": 38,
+        "y": 0,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "right_head_bottom",
+        "x": 44,
+        "y": 0,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "right_head_right",
+        "x": 32,
+        "y": 6,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "right_head_front",
+        "x": 38,
+        "y": 6,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "right_head_left",
+        "x": 44,
+        "y": 6,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "right_head_back",
+        "x": 50,
+        "y": 6,
+        "width": 6,
+        "height": 6
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/wither/wither_invulnerable.png",
+      "minecraft/textures/entity/wither/wither.png",
+      "minecraft/textures/entity/wither/wither_armor.png"
+    ]
+  }
+}

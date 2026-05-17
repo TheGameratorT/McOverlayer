@@ -1,0 +1,195 @@
+{
+  "bat": {
+    "texture_size": [
+      32,
+      32
+    ],
+    "regions": [
+      {
+        "name": "body_top",
+        "x": 2,
+        "y": 0,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "body_bottom",
+        "x": 5,
+        "y": 0,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "body_right",
+        "x": 0,
+        "y": 2,
+        "width": 2,
+        "height": 5
+      },
+      {
+        "name": "body_front",
+        "x": 2,
+        "y": 2,
+        "width": 3,
+        "height": 5
+      },
+      {
+        "name": "body_left",
+        "x": 5,
+        "y": 2,
+        "width": 2,
+        "height": 5
+      },
+      {
+        "name": "body_back",
+        "x": 7,
+        "y": 2,
+        "width": 3,
+        "height": 5
+      },
+      {
+        "name": "head_top",
+        "x": 2,
+        "y": 7,
+        "width": 4,
+        "height": 2
+      },
+      {
+        "name": "head_bottom",
+        "x": 6,
+        "y": 7,
+        "width": 4,
+        "height": 2
+      },
+      {
+        "name": "head_right",
+        "x": 0,
+        "y": 9,
+        "width": 2,
+        "height": 3
+      },
+      {
+        "name": "head_front",
+        "x": 2,
+        "y": 9,
+        "width": 4,
+        "height": 3
+      },
+      {
+        "name": "head_left",
+        "x": 6,
+        "y": 9,
+        "width": 2,
+        "height": 3
+      },
+      {
+        "name": "head_back",
+        "x": 8,
+        "y": 9,
+        "width": 4,
+        "height": 3
+      },
+      {
+        "name": "right_ear_front",
+        "x": 1,
+        "y": 15,
+        "width": 3,
+        "height": 5
+      },
+      {
+        "name": "right_ear_back",
+        "x": 4,
+        "y": 15,
+        "width": 3,
+        "height": 5
+      },
+      {
+        "name": "left_ear_front",
+        "x": 8,
+        "y": 15,
+        "width": 3,
+        "height": 5
+      },
+      {
+        "name": "left_ear_back",
+        "x": 11,
+        "y": 15,
+        "width": 3,
+        "height": 5
+      },
+      {
+        "name": "right_wing_front",
+        "x": 12,
+        "y": 0,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "right_wing_back",
+        "x": 14,
+        "y": 0,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "right_wing_tip_front",
+        "x": 16,
+        "y": 0,
+        "width": 6,
+        "height": 8
+      },
+      {
+        "name": "right_wing_tip_back",
+        "x": 22,
+        "y": 0,
+        "width": 6,
+        "height": 8
+      },
+      {
+        "name": "left_wing_front",
+        "x": 12,
+        "y": 7,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "left_wing_back",
+        "x": 14,
+        "y": 7,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "left_wing_tip_front",
+        "x": 16,
+        "y": 8,
+        "width": 6,
+        "height": 8
+      },
+      {
+        "name": "left_wing_tip_back",
+        "x": 22,
+        "y": 8,
+        "width": 6,
+        "height": 8
+      },
+      {
+        "name": "feet_front",
+        "x": 16,
+        "y": 16,
+        "width": 3,
+        "height": 2
+      },
+      {
+        "name": "feet_back",
+        "x": 19,
+        "y": 16,
+        "width": 3,
+        "height": 2
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/bat.png"
+    ]
+  }
+}

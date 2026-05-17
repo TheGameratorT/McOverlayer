@@ -1,0 +1,97 @@
+{
+  "blaze": {
+    "texture_size": [
+      64,
+      32
+    ],
+    "regions": [
+      {
+        "name": "head_top",
+        "x": 8,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_bottom",
+        "x": 16,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_right",
+        "x": 0,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_front",
+        "x": 8,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_left",
+        "x": 16,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_back",
+        "x": 24,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "part0_top",
+        "x": 2,
+        "y": 16,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "part0_bottom",
+        "x": 4,
+        "y": 16,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "part0_right",
+        "x": 0,
+        "y": 18,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "part0_front",
+        "x": 2,
+        "y": 18,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "part0_left",
+        "x": 4,
+        "y": 18,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "part0_back",
+        "x": 6,
+        "y": 18,
+        "width": 2,
+        "height": 8
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/blaze.png"
+    ]
+  }
+}

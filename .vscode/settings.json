@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/d/Projects/Minecraft/MCOverlayer",
+    "cmake.debugConfig": {
+        "cwd": "${workspaceFolder}"
+    },
+}

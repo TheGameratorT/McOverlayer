@@ -1,0 +1,156 @@
+{
+  "shulker": {
+    "texture_size": [
+      64,
+      64
+    ],
+    "regions": [
+      {
+        "name": "head_top",
+        "x": 6,
+        "y": 52,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "head_bottom",
+        "x": 12,
+        "y": 52,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "head_right",
+        "x": 0,
+        "y": 58,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "head_front",
+        "x": 6,
+        "y": 58,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "head_left",
+        "x": 12,
+        "y": 58,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "head_back",
+        "x": 18,
+        "y": 58,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "lid_top",
+        "x": 16,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "lid_bottom",
+        "x": 32,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "lid_right",
+        "x": 0,
+        "y": 16,
+        "width": 16,
+        "height": 12
+      },
+      {
+        "name": "lid_front",
+        "x": 16,
+        "y": 16,
+        "width": 16,
+        "height": 12
+      },
+      {
+        "name": "lid_left",
+        "x": 32,
+        "y": 16,
+        "width": 16,
+        "height": 12
+      },
+      {
+        "name": "lid_back",
+        "x": 48,
+        "y": 16,
+        "width": 16,
+        "height": 12
+      },
+      {
+        "name": "base_top",
+        "x": 16,
+        "y": 28,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "base_bottom",
+        "x": 32,
+        "y": 28,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "base_right",
+        "x": 0,
+        "y": 44,
+        "width": 16,
+        "height": 8
+      },
+      {
+        "name": "base_front",
+        "x": 16,
+        "y": 44,
+        "width": 16,
+        "height": 8
+      },
+      {
+        "name": "base_left",
+        "x": 32,
+        "y": 44,
+        "width": 16,
+        "height": 8
+      },
+      {
+        "name": "base_back",
+        "x": 48,
+        "y": 44,
+        "width": 16,
+        "height": 8
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/shulker/shulker.png",
+      "minecraft/textures/entity/shulker/shulker_black.png",
+      "minecraft/textures/entity/shulker/shulker_blue.png",
+      "minecraft/textures/entity/shulker/shulker_brown.png",
+      "minecraft/textures/entity/shulker/shulker_cyan.png",
+      "minecraft/textures/entity/shulker/shulker_gray.png",
+      "minecraft/textures/entity/shulker/shulker_green.png",
+      "minecraft/textures/entity/shulker/shulker_light_blue.png",
+      "minecraft/textures/entity/shulker/shulker_light_gray.png",
+      "minecraft/textures/entity/shulker/shulker_lime.png",
+      "minecraft/textures/entity/shulker/shulker_magenta.png",
+      "minecraft/textures/entity/shulker/shulker_orange.png",
+      "minecraft/textures/entity/shulker/shulker_pink.png",
+      "minecraft/textures/entity/shulker/shulker_purple.png",
+      "minecraft/textures/entity/shulker/shulker_red.png",
+      "minecraft/textures/entity/shulker/shulker_white.png",
+      "minecraft/textures/entity/shulker/shulker_yellow.png",
+      "minecraft/textures/entity/shulker/spark.png"
+    ]
+  }
+}

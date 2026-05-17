@@ -1,0 +1,98 @@
+{
+  "squid": {
+    "texture_size": [
+      64,
+      32
+    ],
+    "regions": [
+      {
+        "name": "body_top",
+        "x": 12,
+        "y": 0,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "body_bottom",
+        "x": 24,
+        "y": 0,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "body_right",
+        "x": 0,
+        "y": 12,
+        "width": 12,
+        "height": 16
+      },
+      {
+        "name": "body_front",
+        "x": 12,
+        "y": 12,
+        "width": 12,
+        "height": 16
+      },
+      {
+        "name": "body_left",
+        "x": 24,
+        "y": 12,
+        "width": 12,
+        "height": 16
+      },
+      {
+        "name": "body_back",
+        "x": 36,
+        "y": 12,
+        "width": 12,
+        "height": 16
+      },
+      {
+        "name": "getTentacleName(k)_top",
+        "x": 50,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "getTentacleName(k)_bottom",
+        "x": 52,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "getTentacleName(k)_right",
+        "x": 48,
+        "y": 2,
+        "width": 2,
+        "height": 18
+      },
+      {
+        "name": "getTentacleName(k)_front",
+        "x": 50,
+        "y": 2,
+        "width": 2,
+        "height": 18
+      },
+      {
+        "name": "getTentacleName(k)_left",
+        "x": 52,
+        "y": 2,
+        "width": 2,
+        "height": 18
+      },
+      {
+        "name": "getTentacleName(k)_back",
+        "x": 54,
+        "y": 2,
+        "width": 2,
+        "height": 18
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/squid/squid.png",
+      "minecraft/textures/entity/squid/glow_squid.png"
+    ]
+  }
+}

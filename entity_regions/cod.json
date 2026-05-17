@@ -1,0 +1,195 @@
+{
+  "cod": {
+    "texture_size": [
+      32,
+      32
+    ],
+    "regions": [
+      {
+        "name": "body_top",
+        "x": 7,
+        "y": 0,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "body_bottom",
+        "x": 9,
+        "y": 0,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "body_right",
+        "x": 0,
+        "y": 7,
+        "width": 7,
+        "height": 4
+      },
+      {
+        "name": "body_front",
+        "x": 7,
+        "y": 7,
+        "width": 2,
+        "height": 4
+      },
+      {
+        "name": "body_left",
+        "x": 9,
+        "y": 7,
+        "width": 7,
+        "height": 4
+      },
+      {
+        "name": "body_back",
+        "x": 16,
+        "y": 7,
+        "width": 2,
+        "height": 4
+      },
+      {
+        "name": "head_top",
+        "x": 14,
+        "y": 0,
+        "width": 2,
+        "height": 3
+      },
+      {
+        "name": "head_bottom",
+        "x": 16,
+        "y": 0,
+        "width": 2,
+        "height": 3
+      },
+      {
+        "name": "head_right",
+        "x": 11,
+        "y": 3,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "head_front",
+        "x": 14,
+        "y": 3,
+        "width": 2,
+        "height": 4
+      },
+      {
+        "name": "head_left",
+        "x": 16,
+        "y": 3,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "head_back",
+        "x": 19,
+        "y": 3,
+        "width": 2,
+        "height": 4
+      },
+      {
+        "name": "nose_top",
+        "x": 1,
+        "y": 0,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "name": "nose_bottom",
+        "x": 3,
+        "y": 0,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "name": "nose_right",
+        "x": 0,
+        "y": 1,
+        "width": 1,
+        "height": 3
+      },
+      {
+        "name": "nose_front",
+        "x": 1,
+        "y": 1,
+        "width": 2,
+        "height": 3
+      },
+      {
+        "name": "nose_left",
+        "x": 3,
+        "y": 1,
+        "width": 1,
+        "height": 3
+      },
+      {
+        "name": "nose_back",
+        "x": 4,
+        "y": 1,
+        "width": 2,
+        "height": 3
+      },
+      {
+        "name": "right_fin_top",
+        "x": 24,
+        "y": 1,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_fin_bottom",
+        "x": 26,
+        "y": 1,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_fin_top",
+        "x": 24,
+        "y": 4,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_fin_bottom",
+        "x": 26,
+        "y": 4,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "tail_fin_right",
+        "x": 22,
+        "y": 7,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "tail_fin_left",
+        "x": 26,
+        "y": 7,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "top_fin_right",
+        "x": 20,
+        "y": 0,
+        "width": 6,
+        "height": 1
+      },
+      {
+        "name": "top_fin_left",
+        "x": 26,
+        "y": 0,
+        "width": 6,
+        "height": 1
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/fish/cod.png"
+    ]
+  }
+}

@@ -1,0 +1,574 @@
+{
+  "creaking": {
+    "texture_size": [
+      64,
+      64
+    ],
+    "regions": [
+      {
+        "name": "head_0_top",
+        "x": 6,
+        "y": 0,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "head_0_bottom",
+        "x": 12,
+        "y": 0,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "head_0_right",
+        "x": 0,
+        "y": 6,
+        "width": 6,
+        "height": 10
+      },
+      {
+        "name": "head_0_front",
+        "x": 6,
+        "y": 6,
+        "width": 6,
+        "height": 10
+      },
+      {
+        "name": "head_0_left",
+        "x": 12,
+        "y": 6,
+        "width": 6,
+        "height": 10
+      },
+      {
+        "name": "head_0_back",
+        "x": 18,
+        "y": 6,
+        "width": 6,
+        "height": 10
+      },
+      {
+        "name": "head_1_top",
+        "x": 34,
+        "y": 31,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "head_1_bottom",
+        "x": 40,
+        "y": 31,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "head_1_right",
+        "x": 28,
+        "y": 37,
+        "width": 6,
+        "height": 3
+      },
+      {
+        "name": "head_1_front",
+        "x": 34,
+        "y": 37,
+        "width": 6,
+        "height": 3
+      },
+      {
+        "name": "head_1_left",
+        "x": 40,
+        "y": 37,
+        "width": 6,
+        "height": 3
+      },
+      {
+        "name": "head_1_back",
+        "x": 46,
+        "y": 37,
+        "width": 6,
+        "height": 3
+      },
+      {
+        "name": "head_2_front",
+        "x": 12,
+        "y": 40,
+        "width": 9,
+        "height": 14
+      },
+      {
+        "name": "head_2_back",
+        "x": 21,
+        "y": 40,
+        "width": 9,
+        "height": 14
+      },
+      {
+        "name": "head_3_front",
+        "x": 34,
+        "y": 12,
+        "width": 9,
+        "height": 14
+      },
+      {
+        "name": "head_3_back",
+        "x": 43,
+        "y": 12,
+        "width": 9,
+        "height": 14
+      },
+      {
+        "name": "body_0_top",
+        "x": 5,
+        "y": 16,
+        "width": 6,
+        "height": 5
+      },
+      {
+        "name": "body_0_bottom",
+        "x": 11,
+        "y": 16,
+        "width": 6,
+        "height": 5
+      },
+      {
+        "name": "body_0_right",
+        "x": 0,
+        "y": 21,
+        "width": 5,
+        "height": 13
+      },
+      {
+        "name": "body_0_front",
+        "x": 5,
+        "y": 21,
+        "width": 6,
+        "height": 13
+      },
+      {
+        "name": "body_0_left",
+        "x": 11,
+        "y": 21,
+        "width": 5,
+        "height": 13
+      },
+      {
+        "name": "body_0_back",
+        "x": 16,
+        "y": 21,
+        "width": 6,
+        "height": 13
+      },
+      {
+        "name": "body_1_top",
+        "x": 29,
+        "y": 0,
+        "width": 6,
+        "height": 5
+      },
+      {
+        "name": "body_1_bottom",
+        "x": 35,
+        "y": 0,
+        "width": 6,
+        "height": 5
+      },
+      {
+        "name": "body_1_right",
+        "x": 24,
+        "y": 5,
+        "width": 5,
+        "height": 7
+      },
+      {
+        "name": "body_1_front",
+        "x": 29,
+        "y": 5,
+        "width": 6,
+        "height": 7
+      },
+      {
+        "name": "body_1_left",
+        "x": 35,
+        "y": 5,
+        "width": 5,
+        "height": 7
+      },
+      {
+        "name": "body_1_back",
+        "x": 40,
+        "y": 5,
+        "width": 6,
+        "height": 7
+      },
+      {
+        "name": "right_arm_0_top",
+        "x": 25,
+        "y": 13,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "right_arm_0_bottom",
+        "x": 28,
+        "y": 13,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "right_arm_0_right",
+        "x": 22,
+        "y": 16,
+        "width": 3,
+        "height": 21
+      },
+      {
+        "name": "right_arm_0_front",
+        "x": 25,
+        "y": 16,
+        "width": 3,
+        "height": 21
+      },
+      {
+        "name": "right_arm_0_left",
+        "x": 28,
+        "y": 16,
+        "width": 3,
+        "height": 21
+      },
+      {
+        "name": "right_arm_0_back",
+        "x": 31,
+        "y": 16,
+        "width": 3,
+        "height": 21
+      },
+      {
+        "name": "right_arm_1_top",
+        "x": 49,
+        "y": 0,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "right_arm_1_bottom",
+        "x": 52,
+        "y": 0,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "right_arm_1_right",
+        "x": 46,
+        "y": 3,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "right_arm_1_front",
+        "x": 49,
+        "y": 3,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "right_arm_1_left",
+        "x": 52,
+        "y": 3,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "right_arm_1_back",
+        "x": 55,
+        "y": 3,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "left_arm_0_top",
+        "x": 33,
+        "y": 40,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "left_arm_0_bottom",
+        "x": 36,
+        "y": 40,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "left_arm_0_right",
+        "x": 30,
+        "y": 43,
+        "width": 3,
+        "height": 16
+      },
+      {
+        "name": "left_arm_0_front",
+        "x": 33,
+        "y": 43,
+        "width": 3,
+        "height": 16
+      },
+      {
+        "name": "left_arm_0_left",
+        "x": 36,
+        "y": 43,
+        "width": 3,
+        "height": 16
+      },
+      {
+        "name": "left_arm_0_back",
+        "x": 39,
+        "y": 43,
+        "width": 3,
+        "height": 16
+      },
+      {
+        "name": "left_arm_1_top",
+        "x": 55,
+        "y": 12,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "left_arm_1_bottom",
+        "x": 58,
+        "y": 12,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "left_arm_1_right",
+        "x": 52,
+        "y": 15,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "left_arm_1_front",
+        "x": 55,
+        "y": 15,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "left_arm_1_left",
+        "x": 58,
+        "y": 15,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "left_arm_1_back",
+        "x": 61,
+        "y": 15,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "left_arm_2_top",
+        "x": 55,
+        "y": 19,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "left_arm_2_bottom",
+        "x": 58,
+        "y": 19,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "left_arm_2_right",
+        "x": 52,
+        "y": 22,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "left_arm_2_front",
+        "x": 55,
+        "y": 22,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "left_arm_2_left",
+        "x": 58,
+        "y": 22,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "left_arm_2_back",
+        "x": 61,
+        "y": 22,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "left_leg_0_top",
+        "x": 45,
+        "y": 40,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "left_leg_0_bottom",
+        "x": 48,
+        "y": 40,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "left_leg_0_right",
+        "x": 42,
+        "y": 43,
+        "width": 3,
+        "height": 16
+      },
+      {
+        "name": "left_leg_0_front",
+        "x": 45,
+        "y": 43,
+        "width": 3,
+        "height": 16
+      },
+      {
+        "name": "left_leg_0_left",
+        "x": 48,
+        "y": 43,
+        "width": 3,
+        "height": 16
+      },
+      {
+        "name": "left_leg_0_back",
+        "x": 51,
+        "y": 43,
+        "width": 3,
+        "height": 16
+      },
+      {
+        "name": "left_leg_1_top",
+        "x": 54,
+        "y": 55,
+        "width": 5,
+        "height": 9
+      },
+      {
+        "name": "left_leg_1_bottom",
+        "x": 59,
+        "y": 55,
+        "width": 5,
+        "height": 9
+      },
+      {
+        "name": "right_leg_0_top",
+        "x": 3,
+        "y": 34,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "right_leg_0_bottom",
+        "x": 6,
+        "y": 34,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "right_leg_0_right",
+        "x": 0,
+        "y": 37,
+        "width": 3,
+        "height": 19
+      },
+      {
+        "name": "right_leg_0_front",
+        "x": 3,
+        "y": 37,
+        "width": 3,
+        "height": 19
+      },
+      {
+        "name": "right_leg_0_left",
+        "x": 6,
+        "y": 37,
+        "width": 3,
+        "height": 19
+      },
+      {
+        "name": "right_leg_0_back",
+        "x": 9,
+        "y": 37,
+        "width": 3,
+        "height": 19
+      },
+      {
+        "name": "right_leg_1_top",
+        "x": 54,
+        "y": 46,
+        "width": 5,
+        "height": 9
+      },
+      {
+        "name": "right_leg_1_bottom",
+        "x": 59,
+        "y": 46,
+        "width": 5,
+        "height": 9
+      },
+      {
+        "name": "right_leg_2_top",
+        "x": 15,
+        "y": 34,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "right_leg_2_bottom",
+        "x": 18,
+        "y": 34,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "right_leg_2_right",
+        "x": 12,
+        "y": 37,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "right_leg_2_front",
+        "x": 15,
+        "y": 37,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "right_leg_2_left",
+        "x": 18,
+        "y": 37,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "right_leg_2_back",
+        "x": 21,
+        "y": 37,
+        "width": 3,
+        "height": 3
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/creaking/creaking.png",
+      "minecraft/textures/entity/creaking/creaking_eyes.png"
+    ]
+  }
+}

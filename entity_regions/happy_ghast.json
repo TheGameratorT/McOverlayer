@@ -1,0 +1,225 @@
+{
+  "happy_ghast": {
+    "texture_size": [
+      64,
+      64
+    ],
+    "regions": [
+      {
+        "name": "body_top",
+        "x": 16,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "body_bottom",
+        "x": 32,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "body_right",
+        "x": 0,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "body_front",
+        "x": 16,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "body_left",
+        "x": 32,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "body_back",
+        "x": 48,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "inner_body_top",
+        "x": 16,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "inner_body_bottom",
+        "x": 32,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "inner_body_right",
+        "x": 0,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "inner_body_front",
+        "x": 16,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "inner_body_left",
+        "x": 32,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "inner_body_back",
+        "x": 48,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(0)_top",
+        "x": 2,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(0)_bottom",
+        "x": 4,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(0)_right",
+        "x": 0,
+        "y": 2,
+        "width": 2,
+        "height": 5
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(0)_front",
+        "x": 2,
+        "y": 2,
+        "width": 2,
+        "height": 5
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(0)_left",
+        "x": 4,
+        "y": 2,
+        "width": 2,
+        "height": 5
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(0)_back",
+        "x": 6,
+        "y": 2,
+        "width": 2,
+        "height": 5
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(1)_right",
+        "x": 0,
+        "y": 2,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(1)_front",
+        "x": 2,
+        "y": 2,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(1)_left",
+        "x": 4,
+        "y": 2,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(1)_back",
+        "x": 6,
+        "y": 2,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(2)_right",
+        "x": 0,
+        "y": 2,
+        "width": 2,
+        "height": 4
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(2)_front",
+        "x": 2,
+        "y": 2,
+        "width": 2,
+        "height": 4
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(2)_left",
+        "x": 4,
+        "y": 2,
+        "width": 2,
+        "height": 4
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(2)_back",
+        "x": 6,
+        "y": 2,
+        "width": 2,
+        "height": 4
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(6)_right",
+        "x": 0,
+        "y": 2,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(6)_front",
+        "x": 2,
+        "y": 2,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(6)_left",
+        "x": 4,
+        "y": 2,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "EntityModelPartNames.getTentacleName(6)_back",
+        "x": 6,
+        "y": 2,
+        "width": 2,
+        "height": 8
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/ghast/happy_ghast.png",
+      "minecraft/textures/entity/ghast/happy_ghast_baby.png",
+      "minecraft/textures/entity/ghast/happy_ghast_ropes.png"
+    ]
+  }
+}

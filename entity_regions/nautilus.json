@@ -1,0 +1,296 @@
+{
+  "nautilus": {
+    "texture_size": [
+      128,
+      128
+    ],
+    "regions": [
+      {
+        "name": "shell_0_top",
+        "x": 16,
+        "y": 0,
+        "width": 14,
+        "height": 16
+      },
+      {
+        "name": "shell_0_bottom",
+        "x": 30,
+        "y": 0,
+        "width": 14,
+        "height": 16
+      },
+      {
+        "name": "shell_0_right",
+        "x": 0,
+        "y": 16,
+        "width": 16,
+        "height": 10
+      },
+      {
+        "name": "shell_0_front",
+        "x": 16,
+        "y": 16,
+        "width": 14,
+        "height": 10
+      },
+      {
+        "name": "shell_0_left",
+        "x": 30,
+        "y": 16,
+        "width": 16,
+        "height": 10
+      },
+      {
+        "name": "shell_0_back",
+        "x": 46,
+        "y": 16,
+        "width": 14,
+        "height": 10
+      },
+      {
+        "name": "shell_1_top",
+        "x": 20,
+        "y": 26,
+        "width": 14,
+        "height": 20
+      },
+      {
+        "name": "shell_1_bottom",
+        "x": 34,
+        "y": 26,
+        "width": 14,
+        "height": 20
+      },
+      {
+        "name": "shell_1_right",
+        "x": 0,
+        "y": 46,
+        "width": 20,
+        "height": 8
+      },
+      {
+        "name": "shell_1_front",
+        "x": 20,
+        "y": 46,
+        "width": 14,
+        "height": 8
+      },
+      {
+        "name": "shell_1_left",
+        "x": 34,
+        "y": 46,
+        "width": 20,
+        "height": 8
+      },
+      {
+        "name": "shell_1_back",
+        "x": 54,
+        "y": 46,
+        "width": 14,
+        "height": 8
+      },
+      {
+        "name": "shell_2_front",
+        "x": 48,
+        "y": 26,
+        "width": 14,
+        "height": 8
+      },
+      {
+        "name": "shell_2_back",
+        "x": 62,
+        "y": 26,
+        "width": 14,
+        "height": 8
+      },
+      {
+        "name": "body_0_top",
+        "x": 14,
+        "y": 54,
+        "width": 10,
+        "height": 14
+      },
+      {
+        "name": "body_0_bottom",
+        "x": 24,
+        "y": 54,
+        "width": 10,
+        "height": 14
+      },
+      {
+        "name": "body_0_right",
+        "x": 0,
+        "y": 68,
+        "width": 14,
+        "height": 8
+      },
+      {
+        "name": "body_0_front",
+        "x": 14,
+        "y": 68,
+        "width": 10,
+        "height": 8
+      },
+      {
+        "name": "body_0_left",
+        "x": 24,
+        "y": 68,
+        "width": 14,
+        "height": 8
+      },
+      {
+        "name": "body_0_back",
+        "x": 38,
+        "y": 68,
+        "width": 10,
+        "height": 8
+      },
+      {
+        "name": "body_1_front",
+        "x": 0,
+        "y": 76,
+        "width": 10,
+        "height": 8
+      },
+      {
+        "name": "body_1_back",
+        "x": 10,
+        "y": 76,
+        "width": 10,
+        "height": 8
+      },
+      {
+        "name": "upper_mouth_top",
+        "x": 58,
+        "y": 54,
+        "width": 10,
+        "height": 4
+      },
+      {
+        "name": "upper_mouth_bottom",
+        "x": 68,
+        "y": 54,
+        "width": 10,
+        "height": 4
+      },
+      {
+        "name": "upper_mouth_right",
+        "x": 54,
+        "y": 58,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "upper_mouth_front",
+        "x": 58,
+        "y": 58,
+        "width": 10,
+        "height": 4
+      },
+      {
+        "name": "upper_mouth_left",
+        "x": 68,
+        "y": 58,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "upper_mouth_back",
+        "x": 72,
+        "y": 58,
+        "width": 10,
+        "height": 4
+      },
+      {
+        "name": "inner_mouth_top",
+        "x": 58,
+        "y": 70,
+        "width": 6,
+        "height": 4
+      },
+      {
+        "name": "inner_mouth_bottom",
+        "x": 64,
+        "y": 70,
+        "width": 6,
+        "height": 4
+      },
+      {
+        "name": "inner_mouth_right",
+        "x": 54,
+        "y": 74,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "inner_mouth_front",
+        "x": 58,
+        "y": 74,
+        "width": 6,
+        "height": 4
+      },
+      {
+        "name": "inner_mouth_left",
+        "x": 64,
+        "y": 74,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "inner_mouth_back",
+        "x": 68,
+        "y": 74,
+        "width": 6,
+        "height": 4
+      },
+      {
+        "name": "lower_mouth_top",
+        "x": 58,
+        "y": 62,
+        "width": 10,
+        "height": 4
+      },
+      {
+        "name": "lower_mouth_bottom",
+        "x": 68,
+        "y": 62,
+        "width": 10,
+        "height": 4
+      },
+      {
+        "name": "lower_mouth_right",
+        "x": 54,
+        "y": 66,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "lower_mouth_front",
+        "x": 58,
+        "y": 66,
+        "width": 10,
+        "height": 4
+      },
+      {
+        "name": "lower_mouth_left",
+        "x": 68,
+        "y": 66,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "lower_mouth_back",
+        "x": 72,
+        "y": 66,
+        "width": 10,
+        "height": 4
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/nautilus/nautilus.png",
+      "minecraft/textures/entity/nautilus/nautilus_baby.png",
+      "minecraft/textures/entity/nautilus/zombie_nautilus.png",
+      "minecraft/textures/entity/nautilus/zombie_nautilus_coral.png"
+    ]
+  }
+}

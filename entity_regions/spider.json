@@ -1,0 +1,182 @@
+{
+  "spider": {
+    "texture_size": [
+      64,
+      32
+    ],
+    "regions": [
+      {
+        "name": "head_top",
+        "x": 40,
+        "y": 4,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_bottom",
+        "x": 48,
+        "y": 4,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_right",
+        "x": 32,
+        "y": 12,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_front",
+        "x": 40,
+        "y": 12,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_left",
+        "x": 48,
+        "y": 12,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_back",
+        "x": 56,
+        "y": 12,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "body0_top",
+        "x": 6,
+        "y": 0,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "body0_bottom",
+        "x": 12,
+        "y": 0,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "body0_right",
+        "x": 0,
+        "y": 6,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "body0_front",
+        "x": 6,
+        "y": 6,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "body0_left",
+        "x": 12,
+        "y": 6,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "body0_back",
+        "x": 18,
+        "y": 6,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "body1_top",
+        "x": 12,
+        "y": 12,
+        "width": 10,
+        "height": 12
+      },
+      {
+        "name": "body1_bottom",
+        "x": 22,
+        "y": 12,
+        "width": 10,
+        "height": 12
+      },
+      {
+        "name": "body1_right",
+        "x": 0,
+        "y": 24,
+        "width": 12,
+        "height": 8
+      },
+      {
+        "name": "body1_front",
+        "x": 12,
+        "y": 24,
+        "width": 10,
+        "height": 8
+      },
+      {
+        "name": "body1_left",
+        "x": 22,
+        "y": 24,
+        "width": 12,
+        "height": 8
+      },
+      {
+        "name": "body1_back",
+        "x": 34,
+        "y": 24,
+        "width": 10,
+        "height": 8
+      },
+      {
+        "name": "right_hind_leg_top",
+        "x": 20,
+        "y": 0,
+        "width": 16,
+        "height": 2
+      },
+      {
+        "name": "right_hind_leg_bottom",
+        "x": 36,
+        "y": 0,
+        "width": 16,
+        "height": 2
+      },
+      {
+        "name": "right_hind_leg_right",
+        "x": 18,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_hind_leg_front",
+        "x": 20,
+        "y": 2,
+        "width": 16,
+        "height": 2
+      },
+      {
+        "name": "right_hind_leg_left",
+        "x": 36,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_hind_leg_back",
+        "x": 38,
+        "y": 2,
+        "width": 16,
+        "height": 2
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/spider/spider.png",
+      "minecraft/textures/entity/spider/cave_spider.png"
+    ]
+  }
+}

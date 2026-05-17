@@ -1,0 +1,223 @@
+{
+  "slime": {
+    "texture_size": [
+      64,
+      32
+    ],
+    "regions": [
+      {
+        "name": "cube_top",
+        "x": 8,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube_bottom",
+        "x": 16,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube_right",
+        "x": 0,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube_front",
+        "x": 8,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube_left",
+        "x": 16,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "cube_back",
+        "x": 24,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "inner_cube_top",
+        "x": 6,
+        "y": 16,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "inner_cube_bottom",
+        "x": 12,
+        "y": 16,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "inner_cube_right",
+        "x": 0,
+        "y": 22,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "inner_cube_front",
+        "x": 6,
+        "y": 22,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "inner_cube_left",
+        "x": 12,
+        "y": 22,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "inner_cube_back",
+        "x": 18,
+        "y": 22,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "right_eye_top",
+        "x": 34,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_eye_bottom",
+        "x": 36,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_eye_right",
+        "x": 32,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_eye_front",
+        "x": 34,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_eye_left",
+        "x": 36,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_eye_back",
+        "x": 38,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_eye_top",
+        "x": 34,
+        "y": 4,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_eye_bottom",
+        "x": 36,
+        "y": 4,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_eye_right",
+        "x": 32,
+        "y": 6,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_eye_front",
+        "x": 34,
+        "y": 6,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_eye_left",
+        "x": 36,
+        "y": 6,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_eye_back",
+        "x": 38,
+        "y": 6,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "mouth_top",
+        "x": 33,
+        "y": 8,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "mouth_bottom",
+        "x": 34,
+        "y": 8,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "mouth_right",
+        "x": 32,
+        "y": 9,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "mouth_front",
+        "x": 33,
+        "y": 9,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "mouth_left",
+        "x": 34,
+        "y": 9,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "mouth_back",
+        "x": 35,
+        "y": 9,
+        "width": 1,
+        "height": 1
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/slime/slime.png"
+    ]
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "armorstand": {
+    "texture_size": [
+      64,
+      64
+    ],
+    "regions": [
+      {
+        "name": "hat_top",
+        "x": 40,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "hat_bottom",
+        "x": 48,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "hat_right",
+        "x": 32,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "hat_front",
+        "x": 40,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "hat_left",
+        "x": 48,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "hat_back",
+        "x": 56,
+        "y": 8,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_top",
+        "x": 2,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "head_bottom",
+        "x": 4,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "head_right",
+        "x": 0,
+        "y": 2,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "head_front",
+        "x": 2,
+        "y": 2,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "head_left",
+        "x": 4,
+        "y": 2,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "head_back",
+        "x": 6,
+        "y": 2,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "body_top",
+        "x": 3,
+        "y": 26,
+        "width": 12,
+        "height": 3
+      },
+      {
+        "name": "body_bottom",
+        "x": 15,
+        "y": 26,
+        "width": 12,
+        "height": 3
+      },
+      {
+        "name": "body_right",
+        "x": 0,
+        "y": 29,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "body_front",
+        "x": 3,
+        "y": 29,
+        "width": 12,
+        "height": 3
+      },
+      {
+        "name": "body_left",
+        "x": 15,
+        "y": 29,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "body_back",
+        "x": 18,
+        "y": 29,
+        "width": 12,
+        "height": 3
+      },
+      {
+        "name": "right_arm_top",
+        "x": 26,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_arm_bottom",
+        "x": 28,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_arm_right",
+        "x": 24,
+        "y": 2,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "right_arm_front",
+        "x": 26,
+        "y": 2,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "right_arm_left",
+        "x": 28,
+        "y": 2,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "right_arm_back",
+        "x": 30,
+        "y": 2,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "left_arm_top",
+        "x": 34,
+        "y": 16,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_arm_bottom",
+        "x": 36,
+        "y": 16,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_arm_right",
+        "x": 32,
+        "y": 18,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "left_arm_front",
+        "x": 34,
+        "y": 18,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "left_arm_left",
+        "x": 36,
+        "y": 18,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "left_arm_back",
+        "x": 38,
+        "y": 18,
+        "width": 2,
+        "height": 12
+      },
+      {
+        "name": "right_leg_top",
+        "x": 10,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_leg_bottom",
+        "x": 12,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_leg_right",
+        "x": 8,
+        "y": 2,
+        "width": 2,
+        "height": 11
+      },
+      {
+        "name": "right_leg_front",
+        "x": 10,
+        "y": 2,
+        "width": 2,
+        "height": 11
+      },
+      {
+        "name": "right_leg_left",
+        "x": 12,
+        "y": 2,
+        "width": 2,
+        "height": 11
+      },
+      {
+        "name": "right_leg_back",
+        "x": 14,
+        "y": 2,
+        "width": 2,
+        "height": 11
+      },
+      {
+        "name": "left_leg_top",
+        "x": 42,
+        "y": 16,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_leg_bottom",
+        "x": 44,
+        "y": 16,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_leg_right",
+        "x": 40,
+        "y": 18,
+        "width": 2,
+        "height": 11
+      },
+      {
+        "name": "left_leg_front",
+        "x": 42,
+        "y": 18,
+        "width": 2,
+        "height": 11
+      },
+      {
+        "name": "left_leg_left",
+        "x": 44,
+        "y": 18,
+        "width": 2,
+        "height": 11
+      },
+      {
+        "name": "left_leg_back",
+        "x": 46,
+        "y": 18,
+        "width": 2,
+        "height": 11
+      },
+      {
+        "name": "right_body_stick_top",
+        "x": 18,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_body_stick_bottom",
+        "x": 20,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_body_stick_right",
+        "x": 16,
+        "y": 2,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "right_body_stick_front",
+        "x": 18,
+        "y": 2,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "right_body_stick_left",
+        "x": 20,
+        "y": 2,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "right_body_stick_back",
+        "x": 22,
+        "y": 2,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "left_body_stick_top",
+        "x": 50,
+        "y": 16,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_body_stick_bottom",
+        "x": 52,
+        "y": 16,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "left_body_stick_right",
+        "x": 48,
+        "y": 18,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "left_body_stick_front",
+        "x": 50,
+        "y": 18,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "left_body_stick_left",
+        "x": 52,
+        "y": 18,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "left_body_stick_back",
+        "x": 54,
+        "y": 18,
+        "width": 2,
+        "height": 7
+      },
+      {
+        "name": "shoulder_stick_top",
+        "x": 2,
+        "y": 48,
+        "width": 8,
+        "height": 2
+      },
+      {
+        "name": "shoulder_stick_bottom",
+        "x": 10,
+        "y": 48,
+        "width": 8,
+        "height": 2
+      },
+      {
+        "name": "shoulder_stick_right",
+        "x": 0,
+        "y": 50,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "shoulder_stick_front",
+        "x": 2,
+        "y": 50,
+        "width": 8,
+        "height": 2
+      },
+      {
+        "name": "shoulder_stick_left",
+        "x": 10,
+        "y": 50,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "shoulder_stick_back",
+        "x": 12,
+        "y": 50,
+        "width": 8,
+        "height": 2
+      },
+      {
+        "name": "base_plate_top",
+        "x": 12,
+        "y": 32,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "base_plate_bottom",
+        "x": 24,
+        "y": 32,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "base_plate_right",
+        "x": 0,
+        "y": 44,
+        "width": 12,
+        "height": 1
+      },
+      {
+        "name": "base_plate_front",
+        "x": 12,
+        "y": 44,
+        "width": 12,
+        "height": 1
+      },
+      {
+        "name": "base_plate_left",
+        "x": 24,
+        "y": 44,
+        "width": 12,
+        "height": 1
+      },
+      {
+        "name": "base_plate_back",
+        "x": 36,
+        "y": 44,
+        "width": 12,
+        "height": 1
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/armorstand/wood.png"
+    ]
+  }
+}

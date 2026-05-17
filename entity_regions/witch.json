@@ -1,0 +1,265 @@
+{
+  "witch": {
+    "texture_size": [
+      64,
+      128
+    ],
+    "regions": [
+      {
+        "name": "head_top",
+        "x": 8,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_bottom",
+        "x": 16,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      },
+      {
+        "name": "head_right",
+        "x": 0,
+        "y": 8,
+        "width": 8,
+        "height": 10
+      },
+      {
+        "name": "head_front",
+        "x": 8,
+        "y": 8,
+        "width": 8,
+        "height": 10
+      },
+      {
+        "name": "head_left",
+        "x": 16,
+        "y": 8,
+        "width": 8,
+        "height": 10
+      },
+      {
+        "name": "head_back",
+        "x": 24,
+        "y": 8,
+        "width": 8,
+        "height": 10
+      },
+      {
+        "name": "hat_top",
+        "x": 10,
+        "y": 64,
+        "width": 10,
+        "height": 10
+      },
+      {
+        "name": "hat_bottom",
+        "x": 20,
+        "y": 64,
+        "width": 10,
+        "height": 10
+      },
+      {
+        "name": "hat_right",
+        "x": 0,
+        "y": 74,
+        "width": 10,
+        "height": 2
+      },
+      {
+        "name": "hat_front",
+        "x": 10,
+        "y": 74,
+        "width": 10,
+        "height": 2
+      },
+      {
+        "name": "hat_left",
+        "x": 20,
+        "y": 74,
+        "width": 10,
+        "height": 2
+      },
+      {
+        "name": "hat_back",
+        "x": 30,
+        "y": 74,
+        "width": 10,
+        "height": 2
+      },
+      {
+        "name": "hat2_top",
+        "x": 7,
+        "y": 76,
+        "width": 7,
+        "height": 7
+      },
+      {
+        "name": "hat2_bottom",
+        "x": 14,
+        "y": 76,
+        "width": 7,
+        "height": 7
+      },
+      {
+        "name": "hat2_right",
+        "x": 0,
+        "y": 83,
+        "width": 7,
+        "height": 4
+      },
+      {
+        "name": "hat2_front",
+        "x": 7,
+        "y": 83,
+        "width": 7,
+        "height": 4
+      },
+      {
+        "name": "hat2_left",
+        "x": 14,
+        "y": 83,
+        "width": 7,
+        "height": 4
+      },
+      {
+        "name": "hat2_back",
+        "x": 21,
+        "y": 83,
+        "width": 7,
+        "height": 4
+      },
+      {
+        "name": "hat3_top",
+        "x": 4,
+        "y": 87,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "hat3_bottom",
+        "x": 8,
+        "y": 87,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "hat3_right",
+        "x": 0,
+        "y": 91,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "hat3_front",
+        "x": 4,
+        "y": 91,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "hat3_left",
+        "x": 8,
+        "y": 91,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "hat3_back",
+        "x": 12,
+        "y": 91,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "name": "hat4_top",
+        "x": 1,
+        "y": 95,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "hat4_bottom",
+        "x": 2,
+        "y": 95,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "hat4_right",
+        "x": 0,
+        "y": 96,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "hat4_front",
+        "x": 1,
+        "y": 96,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "hat4_left",
+        "x": 2,
+        "y": 96,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "hat4_back",
+        "x": 3,
+        "y": 96,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "mole_top",
+        "x": 1,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "mole_bottom",
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "mole_right",
+        "x": 0,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "mole_front",
+        "x": 1,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "mole_left",
+        "x": 2,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "mole_back",
+        "x": 3,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/witch.png"
+    ]
+  }
+}

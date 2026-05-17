@@ -1,0 +1,367 @@
+{
+  "parrot": {
+    "texture_size": [
+      32,
+      32
+    ],
+    "regions": [
+      {
+        "name": "body_top",
+        "x": 5,
+        "y": 8,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "body_bottom",
+        "x": 8,
+        "y": 8,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "body_right",
+        "x": 2,
+        "y": 11,
+        "width": 3,
+        "height": 6
+      },
+      {
+        "name": "body_front",
+        "x": 5,
+        "y": 11,
+        "width": 3,
+        "height": 6
+      },
+      {
+        "name": "body_left",
+        "x": 8,
+        "y": 11,
+        "width": 3,
+        "height": 6
+      },
+      {
+        "name": "body_back",
+        "x": 11,
+        "y": 11,
+        "width": 3,
+        "height": 6
+      },
+      {
+        "name": "tail_top",
+        "x": 23,
+        "y": 1,
+        "width": 3,
+        "height": 1
+      },
+      {
+        "name": "tail_bottom",
+        "x": 26,
+        "y": 1,
+        "width": 3,
+        "height": 1
+      },
+      {
+        "name": "tail_right",
+        "x": 22,
+        "y": 2,
+        "width": 1,
+        "height": 4
+      },
+      {
+        "name": "tail_front",
+        "x": 23,
+        "y": 2,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "tail_left",
+        "x": 26,
+        "y": 2,
+        "width": 1,
+        "height": 4
+      },
+      {
+        "name": "tail_back",
+        "x": 27,
+        "y": 2,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "left_wing_top",
+        "x": 22,
+        "y": 8,
+        "width": 1,
+        "height": 3
+      },
+      {
+        "name": "left_wing_bottom",
+        "x": 23,
+        "y": 8,
+        "width": 1,
+        "height": 3
+      },
+      {
+        "name": "left_wing_right",
+        "x": 19,
+        "y": 11,
+        "width": 3,
+        "height": 5
+      },
+      {
+        "name": "left_wing_front",
+        "x": 22,
+        "y": 11,
+        "width": 1,
+        "height": 5
+      },
+      {
+        "name": "left_wing_left",
+        "x": 23,
+        "y": 11,
+        "width": 3,
+        "height": 5
+      },
+      {
+        "name": "left_wing_back",
+        "x": 26,
+        "y": 11,
+        "width": 1,
+        "height": 5
+      },
+      {
+        "name": "head_top",
+        "x": 4,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "head_bottom",
+        "x": 6,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "head_right",
+        "x": 2,
+        "y": 4,
+        "width": 2,
+        "height": 3
+      },
+      {
+        "name": "head_front",
+        "x": 4,
+        "y": 4,
+        "width": 2,
+        "height": 3
+      },
+      {
+        "name": "head_left",
+        "x": 6,
+        "y": 4,
+        "width": 2,
+        "height": 3
+      },
+      {
+        "name": "head_back",
+        "x": 8,
+        "y": 4,
+        "width": 2,
+        "height": 3
+      },
+      {
+        "name": "head2_top",
+        "x": 14,
+        "y": 0,
+        "width": 2,
+        "height": 4
+      },
+      {
+        "name": "head2_bottom",
+        "x": 16,
+        "y": 0,
+        "width": 2,
+        "height": 4
+      },
+      {
+        "name": "head2_right",
+        "x": 10,
+        "y": 4,
+        "width": 4,
+        "height": 1
+      },
+      {
+        "name": "head2_front",
+        "x": 14,
+        "y": 4,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "name": "head2_left",
+        "x": 16,
+        "y": 4,
+        "width": 4,
+        "height": 1
+      },
+      {
+        "name": "head2_back",
+        "x": 20,
+        "y": 4,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "name": "beak1_top",
+        "x": 12,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "beak1_bottom",
+        "x": 13,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "beak1_right",
+        "x": 11,
+        "y": 8,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "beak1_front",
+        "x": 12,
+        "y": 8,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "beak1_left",
+        "x": 13,
+        "y": 8,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "beak1_back",
+        "x": 14,
+        "y": 8,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "beak2_top",
+        "x": 17,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "beak2_bottom",
+        "x": 18,
+        "y": 7,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "beak2_right",
+        "x": 16,
+        "y": 8,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "beak2_front",
+        "x": 17,
+        "y": 8,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "beak2_left",
+        "x": 18,
+        "y": 8,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "beak2_back",
+        "x": 19,
+        "y": 8,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "feather_right",
+        "x": 2,
+        "y": 22,
+        "width": 4,
+        "height": 5
+      },
+      {
+        "name": "feather_left",
+        "x": 6,
+        "y": 22,
+        "width": 4,
+        "height": 5
+      },
+      {
+        "name": "left_leg_top",
+        "x": 15,
+        "y": 18,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "left_leg_bottom",
+        "x": 16,
+        "y": 18,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "name": "left_leg_right",
+        "x": 14,
+        "y": 19,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "left_leg_front",
+        "x": 15,
+        "y": 19,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "left_leg_left",
+        "x": 16,
+        "y": 19,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "left_leg_back",
+        "x": 17,
+        "y": 19,
+        "width": 1,
+        "height": 2
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/parrot/parrot_red_blue.png",
+      "minecraft/textures/entity/parrot/parrot_blue.png",
+      "minecraft/textures/entity/parrot/parrot_green.png",
+      "minecraft/textures/entity/parrot/parrot_yellow_blue.png",
+      "minecraft/textures/entity/parrot/parrot_grey.png"
+    ]
+  }
+}

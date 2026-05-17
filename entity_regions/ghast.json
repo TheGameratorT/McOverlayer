@@ -1,0 +1,59 @@
+{
+  "ghast": {
+    "texture_size": [
+      64,
+      32
+    ],
+    "regions": [
+      {
+        "name": "body_top",
+        "x": 16,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "body_bottom",
+        "x": 32,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "body_right",
+        "x": 0,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "body_front",
+        "x": 16,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "body_left",
+        "x": 32,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "name": "body_back",
+        "x": 48,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/ghast/ghast.png",
+      "minecraft/textures/entity/ghast/ghast_shooting.png",
+      "minecraft/textures/entity/ghast/happy_ghast.png",
+      "minecraft/textures/entity/ghast/happy_ghast_baby.png",
+      "minecraft/textures/entity/ghast/happy_ghast_ropes.png"
+    ]
+  }
+}

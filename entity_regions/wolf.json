@@ -1,0 +1,337 @@
+{
+  "wolf": {
+    "texture_size": [
+      64,
+      32
+    ],
+    "regions": [
+      {
+        "name": "real_head_0_top",
+        "x": 4,
+        "y": 0,
+        "width": 6,
+        "height": 4
+      },
+      {
+        "name": "real_head_0_bottom",
+        "x": 10,
+        "y": 0,
+        "width": 6,
+        "height": 4
+      },
+      {
+        "name": "real_head_0_right",
+        "x": 0,
+        "y": 4,
+        "width": 4,
+        "height": 6
+      },
+      {
+        "name": "real_head_0_front",
+        "x": 4,
+        "y": 4,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "real_head_0_left",
+        "x": 10,
+        "y": 4,
+        "width": 4,
+        "height": 6
+      },
+      {
+        "name": "real_head_0_back",
+        "x": 14,
+        "y": 4,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "real_head_1_top",
+        "x": 17,
+        "y": 14,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "name": "real_head_1_bottom",
+        "x": 19,
+        "y": 14,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "name": "real_head_1_right",
+        "x": 16,
+        "y": 15,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "real_head_1_front",
+        "x": 17,
+        "y": 15,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "real_head_1_left",
+        "x": 19,
+        "y": 15,
+        "width": 1,
+        "height": 2
+      },
+      {
+        "name": "real_head_1_back",
+        "x": 20,
+        "y": 15,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "real_head_3_top",
+        "x": 4,
+        "y": 10,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "real_head_3_bottom",
+        "x": 7,
+        "y": 10,
+        "width": 3,
+        "height": 4
+      },
+      {
+        "name": "real_head_3_right",
+        "x": 0,
+        "y": 14,
+        "width": 4,
+        "height": 3
+      },
+      {
+        "name": "real_head_3_front",
+        "x": 4,
+        "y": 14,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "real_head_3_left",
+        "x": 7,
+        "y": 14,
+        "width": 4,
+        "height": 3
+      },
+      {
+        "name": "real_head_3_back",
+        "x": 11,
+        "y": 14,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "name": "body_top",
+        "x": 24,
+        "y": 14,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "body_bottom",
+        "x": 30,
+        "y": 14,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "name": "body_right",
+        "x": 18,
+        "y": 20,
+        "width": 6,
+        "height": 9
+      },
+      {
+        "name": "body_front",
+        "x": 24,
+        "y": 20,
+        "width": 6,
+        "height": 9
+      },
+      {
+        "name": "body_left",
+        "x": 30,
+        "y": 20,
+        "width": 6,
+        "height": 9
+      },
+      {
+        "name": "body_back",
+        "x": 36,
+        "y": 20,
+        "width": 6,
+        "height": 9
+      },
+      {
+        "name": "upper_body_top",
+        "x": 28,
+        "y": 0,
+        "width": 8,
+        "height": 7
+      },
+      {
+        "name": "upper_body_bottom",
+        "x": 36,
+        "y": 0,
+        "width": 8,
+        "height": 7
+      },
+      {
+        "name": "upper_body_right",
+        "x": 21,
+        "y": 7,
+        "width": 7,
+        "height": 6
+      },
+      {
+        "name": "upper_body_front",
+        "x": 28,
+        "y": 7,
+        "width": 8,
+        "height": 6
+      },
+      {
+        "name": "upper_body_left",
+        "x": 36,
+        "y": 7,
+        "width": 7,
+        "height": 6
+      },
+      {
+        "name": "upper_body_back",
+        "x": 43,
+        "y": 7,
+        "width": 8,
+        "height": 6
+      },
+      {
+        "name": "right_hind_leg_top",
+        "x": 2,
+        "y": 18,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_hind_leg_bottom",
+        "x": 4,
+        "y": 18,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "right_hind_leg_right",
+        "x": 0,
+        "y": 20,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "right_hind_leg_front",
+        "x": 2,
+        "y": 20,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "right_hind_leg_left",
+        "x": 4,
+        "y": 20,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "right_hind_leg_back",
+        "x": 6,
+        "y": 20,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "real_tail_top",
+        "x": 11,
+        "y": 18,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "real_tail_bottom",
+        "x": 13,
+        "y": 18,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "name": "real_tail_right",
+        "x": 9,
+        "y": 20,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "real_tail_front",
+        "x": 11,
+        "y": 20,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "real_tail_left",
+        "x": 13,
+        "y": 20,
+        "width": 2,
+        "height": 8
+      },
+      {
+        "name": "real_tail_back",
+        "x": 15,
+        "y": 20,
+        "width": 2,
+        "height": 8
+      }
+    ],
+    "textures": [
+      "minecraft/textures/entity/wolf/wolf.png",
+      "minecraft/textures/entity/wolf/wolf_angry.png",
+      "minecraft/textures/entity/wolf/wolf_armor_crackiness_high.png",
+      "minecraft/textures/entity/wolf/wolf_armor_crackiness_low.png",
+      "minecraft/textures/entity/wolf/wolf_armor_crackiness_medium.png",
+      "minecraft/textures/entity/wolf/wolf_ashen.png",
+      "minecraft/textures/entity/wolf/wolf_ashen_angry.png",
+      "minecraft/textures/entity/wolf/wolf_ashen_tame.png",
+      "minecraft/textures/entity/wolf/wolf_black.png",
+      "minecraft/textures/entity/wolf/wolf_black_angry.png",
+      "minecraft/textures/entity/wolf/wolf_black_tame.png",
+      "minecraft/textures/entity/wolf/wolf_chestnut.png",
+      "minecraft/textures/entity/wolf/wolf_chestnut_angry.png",
+      "minecraft/textures/entity/wolf/wolf_chestnut_tame.png",
+      "minecraft/textures/entity/wolf/wolf_collar.png",
+      "minecraft/textures/entity/wolf/wolf_rusty.png",
+      "minecraft/textures/entity/wolf/wolf_rusty_angry.png",
+      "minecraft/textures/entity/wolf/wolf_rusty_tame.png",
+      "minecraft/textures/entity/wolf/wolf_snowy.png",
+      "minecraft/textures/entity/wolf/wolf_snowy_angry.png",
+      "minecraft/textures/entity/wolf/wolf_snowy_tame.png",
+      "minecraft/textures/entity/wolf/wolf_spotted.png",
+      "minecraft/textures/entity/wolf/wolf_spotted_angry.png",
+      "minecraft/textures/entity/wolf/wolf_spotted_tame.png",
+      "minecraft/textures/entity/wolf/wolf_striped.png",
+      "minecraft/textures/entity/wolf/wolf_striped_angry.png",
+      "minecraft/textures/entity/wolf/wolf_striped_tame.png",
+      "minecraft/textures/entity/wolf/wolf_tame.png",
+      "minecraft/textures/entity/wolf/wolf_woods.png",
+      "minecraft/textures/entity/wolf/wolf_woods_angry.png",
+      "minecraft/textures/entity/wolf/wolf_woods_tame.png"
+    ]
+  }
+}
