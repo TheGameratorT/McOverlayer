@@ -27,6 +27,8 @@
 #include <QTimer>
 #include <QWidget>
 #include <QVBoxLayout>
+#include <QMessageBox>
+#include <QMenuBar>
 
 static const QStringList kPriorityPatterns = {
     QStringLiteral("grass_block_top"),
@@ -78,15 +80,39 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
 
 void MainWindow::build()
 {
+    // ---- Menu bar ----
+    auto *toolsMenu = menuBar()->addMenu(QStringLiteral("&Tools"));
+
+    auto *lookupAction = toolsMenu->addAction(QStringLiteral("&Overlay Lookup"));
+    lookupAction->setToolTip(QStringLiteral("Search which overlay is assigned to a specific texture path."));
+    connect(lookupAction, &QAction::triggered, this, &MainWindow::onOverlayLookup);
+
+    auto *seedSearchAction = toolsMenu->addAction(QStringLiteral("&Seed Search"));
+    seedSearchAction->setToolTip(QStringLiteral("Scan a range of seeds to find one that assigns a desired overlay to a specific texture."));
+    connect(seedSearchAction, &QAction::triggered, this, &MainWindow::onSeedSearch);
+
+    auto *helpMenu = menuBar()->addMenu(QStringLiteral("&Help"));
+
+    auto *aboutAction = helpMenu->addAction(QStringLiteral("&About MC Overlayer"));
+    connect(aboutAction, &QAction::triggered, this, &MainWindow::onAbout);
+
+    auto *aboutQtAction = helpMenu->addAction(QStringLiteral("About &Qt"));
+    connect(aboutQtAction, &QAction::triggered, qApp, &QApplication::aboutQt);
+
     // ---- Toolbar ----
     auto *tb = addToolBar(QStringLiteral("Main"));
     tb->setMovable(false);
     tb->setFloatable(false);
 
-    tb->addWidget(new QLabel(QStringLiteral(" Seed: "), this));
+    auto *seedLbl = new QLabel(QStringLiteral(" Seed: "), this);
+    seedLbl->setToolTip(QStringLiteral("The seed determines which overlay is assigned to which texture. "
+                                       "The same seed always produces the same mapping. "
+                                       "Type a number or any text and press Enter."));
+    tb->addWidget(seedLbl);
     m_seedEdit = new QLineEdit(QString::number(m_config.seed), this);
     m_seedEdit->setFixedWidth(120);
     m_seedEdit->setPlaceholderText(QStringLiteral("seed or text"));
+    m_seedEdit->setToolTip(seedLbl->toolTip());
     connect(m_seedEdit, &QLineEdit::returnPressed, this, [this]{
         const QString t = m_seedEdit->text().trimmed();
         bool ok;
@@ -112,10 +138,13 @@ void MainWindow::build()
 
     tb->addSeparator();
 
-    tb->addWidget(new QLabel(QStringLiteral(" Filter: "), this));
+    auto *filterLbl = new QLabel(QStringLiteral(" Filter: "), this);
+    filterLbl->setToolTip(QStringLiteral("Filter the preview grid by texture or overlay filename."));
+    tb->addWidget(filterLbl);
     m_filterEdit = new QLineEdit(this);
     m_filterEdit->setFixedWidth(160);
     m_filterEdit->setPlaceholderText(QStringLiteral("texture or overlay name"));
+    m_filterEdit->setToolTip(filterLbl->toolTip());
     m_filterEdit->setClearButtonEnabled(true);
     m_filterTimer = new QTimer(this);
     m_filterTimer->setSingleShot(true);
@@ -126,32 +155,26 @@ void MainWindow::build()
 
     m_typeCombo = new QComboBox(this);
     m_typeCombo->addItems({QStringLiteral("All"), QStringLiteral("Entity"), QStringLiteral("Regular")});
+    m_typeCombo->setToolTip(QStringLiteral("Show all assignments, only entity skin assignments, or only regular texture assignments."));
     connect(m_typeCombo, &QComboBox::currentIndexChanged, this, [this](int){ onFilterChanged(); });
     tb->addWidget(m_typeCombo);
 
-    tb->addWidget(new QLabel(QStringLiteral(" Max: "), this));
+    auto *maxLbl = new QLabel(QStringLiteral(" Max: "), this);
+    maxLbl->setToolTip(QStringLiteral("Maximum number of cards to display in the preview grid. Lower values are faster to render."));
+    tb->addWidget(maxLbl);
     m_maxSpin = new QSpinBox(this);
     m_maxSpin->setRange(10, 5000);
     m_maxSpin->setValue(200);
     m_maxSpin->setSingleStep(50);
     m_maxSpin->setFixedWidth(72);
+    m_maxSpin->setToolTip(maxLbl->toolTip());
     connect(m_maxSpin, &QSpinBox::valueChanged, this, [this](int){ onFilterChanged(); });
     tb->addWidget(m_maxSpin);
 
     tb->addSeparator();
 
-    auto *lookupBtn = new QPushButton(QStringLiteral("Overlay Lookup"), this);
-    connect(lookupBtn, &QPushButton::clicked, this, &MainWindow::onOverlayLookup);
-    tb->addWidget(lookupBtn);
-
-    auto *seedSearchBtn = new QPushButton(QStringLiteral("Seed Search"), this);
-    connect(seedSearchBtn, &QPushButton::clicked, this, &MainWindow::onSeedSearch);
-    tb->addWidget(seedSearchBtn);
-
-    tb->addSeparator();
-
     auto *applyBtn = new QPushButton(QStringLiteral("▶ Apply"), this);
-    applyBtn->setToolTip(QStringLiteral("Apply the current mapping to textures"));
+    applyBtn->setToolTip(QStringLiteral("Composite the overlays onto the textures and write the output files to disk."));
     connect(applyBtn, &QPushButton::clicked, this, &MainWindow::onApply);
     tb->addWidget(applyBtn);
 
@@ -193,7 +216,7 @@ void MainWindow::build()
 
 void MainWindow::rebuild()
 {
-    // Keep the ConfigPanel's internal copy in sync so "Update Preview" never
+    // Keep the ConfigPanel's internal copy in sync so "Use These Settings" never
     // emits a stale seed back to us.
     if (m_configPanel) m_configPanel->setSeed(m_config.seed);
 
@@ -212,7 +235,10 @@ void MainWindow::rebuild()
     if (m_config.overlayDir.isEmpty() || m_config.textureDir.isEmpty()) {
         updateStatus();
         if (m_statusLabel)
-            m_statusLabel->setText(QStringLiteral("Configure overlay and texture directories in the left panel, then click Update Preview."));
+            m_statusLabel->setText(QStringLiteral(
+                "Getting started: set Overlay Images and Texture Images directories in the left panel, "
+                "then click “Use These Settings” to see the assignment grid. "
+                "Use “▶ Apply” in the toolbar to write the output."));
         return;
     }
 
@@ -363,8 +389,46 @@ void MainWindow::onSeedSearch()
     m_seedSearchDlg->activateWindow();
 }
 
+void MainWindow::onAbout()
+{
+    const QString version = QApplication::applicationVersion();
+    
+    QString bodyText = QString("<p><strong>MC Overlayer</strong></p>"
+        "<p>Version: %1</p>"
+        "<p>Copyright &copy; 2026 TheGameratorT</p>"
+        "<p><span style=\"text-decoration: underline;\">License:</span></p>"
+        "<p style=\"padding-left: 30px;\">This application is licensed under the GNU General Public License v3.</p>"
+        "<p style=\"padding-left: 30px;\">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>"
+        "<p style=\"padding-left: 30px;\">This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.<br />See the GNU General Public License for more details.</p>"
+        "<p style=\"padding-left: 30px;\">For details read the LICENSE file bundled with the program or visit:</p>"
+        "<p style=\"padding-left: 30px;\"><a href=\"https://www.gnu.org/licenses/\">https://www.gnu.org/licenses/</a></p>").arg(version);
+    
+    QMessageBox::about(this, "About MC Overlayer", bodyText);
+}
+
 void MainWindow::onApply()
 {
+    if (m_configPanel && m_configPanel->isDirty()) {
+        QMessageBox msg(this);
+        msg.setIcon(QMessageBox::Warning);
+        msg.setWindowTitle(QStringLiteral("Unapplied Settings"));
+        msg.setText(QStringLiteral("You have changed settings that haven't been applied yet."));
+        msg.setInformativeText(QStringLiteral(
+            "The output may not reflect your current inputs. "
+            "Click “Use These Settings” to update the preview first, "
+            "or “Apply Anyway” to proceed with the previously applied settings."));
+        auto *useBtn    = msg.addButton(QStringLiteral("Use These Settings"), QMessageBox::AcceptRole);
+        auto *anywayBtn = msg.addButton(QStringLiteral("Apply Anyway"),       QMessageBox::DestructiveRole);
+        msg.addButton(QMessageBox::Cancel);
+        msg.setDefaultButton(useBtn);
+        msg.exec();
+
+        const QAbstractButton *clicked = msg.clickedButton();
+        if (clicked == msg.button(QMessageBox::Cancel)) return;
+        if (clicked == useBtn) m_configPanel->applySettings();
+        Q_UNUSED(anywayBtn);
+    }
+
     auto *dlg = new ApplyDialog(m_config, this);
     dlg->setAttribute(Qt::WA_DeleteOnClose);
     dlg->show();

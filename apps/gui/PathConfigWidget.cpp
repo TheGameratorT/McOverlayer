@@ -12,7 +12,6 @@
 #include <QDoubleSpinBox>
 #include <QCheckBox>
 #include <QComboBox>
-#include <QSplitter>
 #include <QJsonDocument>
 #include <QJsonObject>
 
@@ -28,51 +27,42 @@ void PathConfigWidget::build()
 {
     auto *layout = new QVBoxLayout(this);
     layout->setContentsMargins(0, 0, 0, 0);
-    layout->setSpacing(0);
+    layout->setSpacing(4);
 
-    auto *splitter = new QSplitter(Qt::Vertical, this);
-    splitter->setChildrenCollapsible(false);
-    layout->addWidget(splitter);
-
-    // Top pane: list + Add/Remove buttons
-    auto *topPane = new QWidget(splitter);
-    auto *topLay  = new QVBoxLayout(topPane);
-    topLay->setContentsMargins(0, 0, 0, 4);
-    topLay->setSpacing(4);
-
-    m_list = new QListWidget(topPane);
+    m_list = new QListWidget(this);
     connect(m_list, &QListWidget::currentRowChanged, this, &PathConfigWidget::onSelectionChanged);
-    topLay->addWidget(m_list);
+    layout->addWidget(m_list, 1);
 
     auto *btnRow = new QHBoxLayout();
-    auto *addBtn = new QPushButton(QStringLiteral("+ Add"), topPane);
+    auto *addBtn = new QPushButton(QStringLiteral("+ Add"), this);
     addBtn->setMaximumWidth(60);
     connect(addBtn, &QPushButton::clicked, this, &PathConfigWidget::onAddEntry);
     btnRow->addWidget(addBtn);
-    m_removeBtn = new QPushButton(QStringLiteral("- Remove"), topPane);
+    m_removeBtn = new QPushButton(QStringLiteral("- Remove"), this);
     m_removeBtn->setMaximumWidth(75);
     m_removeBtn->setEnabled(false);
     connect(m_removeBtn, &QPushButton::clicked, this, &PathConfigWidget::onRemoveEntry);
     btnRow->addWidget(m_removeBtn);
     btnRow->addStretch();
-    topLay->addLayout(btnRow);
+    layout->addLayout(btnRow);
 
-    splitter->addWidget(topPane);
-    splitter->setStretchFactor(0, 1);
-
-    // Bottom pane: entry detail
-    m_detail = new QGroupBox(QStringLiteral("Entry Settings"), splitter);
-    splitter->addWidget(m_detail);
-    splitter->setStretchFactor(1, 2);
+    // Entry detail — added with no stretch so it only takes its natural height
+    m_detail = new QGroupBox(QStringLiteral("Entry Settings"), this);
+    m_detail->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Fixed);
     m_detail->setVisible(false);
+    layout->addWidget(m_detail, 0);
     auto *det = new QVBoxLayout(m_detail);
     det->setSpacing(3);
 
     // Path key (exact file or directory prefix)
     auto *prefixRow = new QHBoxLayout();
-    prefixRow->addWidget(new QLabel(QStringLiteral("Path:"), this));
+    auto *prefixLbl = new QLabel(QStringLiteral("Path:"), this);
+    prefixLbl->setToolTip(QStringLiteral("Exact filename (e.g. pack.png) or directory prefix (e.g. assets/block) to match. "
+                                          "Exact matches take priority; among prefixes the longest one wins."));
+    prefixRow->addWidget(prefixLbl);
     m_prefixEdit = new QLineEdit(this);
     m_prefixEdit->setPlaceholderText(QStringLiteral("e.g. pack.png, assets/block"));
+    m_prefixEdit->setToolTip(prefixLbl->toolTip());
     connect(m_prefixEdit, &QLineEdit::textChanged, this, &PathConfigWidget::onDetailChanged);
     prefixRow->addWidget(m_prefixEdit);
     det->addLayout(prefixRow);
@@ -91,20 +81,24 @@ void PathConfigWidget::build()
     };
 
     m_scaleSpin = new QSpinBox(this); m_scaleSpin->setRange(1, 32); m_scaleSpin->setValue(4);
+    m_scaleSpin->setToolTip(QStringLiteral("Output upscale factor for this path (overrides the global Scale setting)."));
     addSpinRow(m_scaleCb, QStringLiteral("Scale:"), m_scaleSpin);
 
     m_alphaSpin = new QDoubleSpinBox(this);
     m_alphaSpin->setRange(0.0, 1.0); m_alphaSpin->setSingleStep(0.05); m_alphaSpin->setDecimals(2); m_alphaSpin->setValue(0.75);
+    m_alphaSpin->setToolTip(QStringLiteral("Blend strength for this path (0.0 = invisible, 1.0 = full replacement)."));
     addSpinRow(m_alphaCb, QStringLiteral("Alpha:"), m_alphaSpin);
 
     m_ovlSpin = new QDoubleSpinBox(this);
     m_ovlSpin->setRange(0.0, 2.0); m_ovlSpin->setSingleStep(0.1); m_ovlSpin->setDecimals(2); m_ovlSpin->setValue(1.0);
+    m_ovlSpin->setToolTip(QStringLiteral("Overlay resize factor for this path (1.0 = fill, 0.5 = tile 4×, 2.0 = zoom in)."));
     addSpinRow(m_ovlCb, QStringLiteral("Overlay scale:"), m_ovlSpin);
 
     m_fastOvlSpin = new QSpinBox(this);
     m_fastOvlSpin->setRange(0, 2048); m_fastOvlSpin->setSingleStep(64); m_fastOvlSpin->setValue(128);
     m_fastOvlSpin->setSuffix(QStringLiteral(" px"));
     m_fastOvlSpin->setSpecialValueText(QStringLiteral("Off"));
+    m_fastOvlSpin->setToolTip(QStringLiteral("Pre-cache overlays at this pixel size for this path. 0 (Off) scales on demand."));
     addSpinRow(m_fastOvlCb, QStringLiteral("Fast overlay size:"), m_fastOvlSpin);
 
     // Keep aspect (bool, uses combo not spin)

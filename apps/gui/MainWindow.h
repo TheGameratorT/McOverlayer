@@ -34,6 +34,7 @@ private slots:
     void onOverlayLookup();
     void onSeedSearch();
     void onApply();
+    void onAbout();
     void onThumbnailLoaded(int index, const QImage &image);
 
 private:
