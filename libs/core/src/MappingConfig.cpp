@@ -15,18 +15,8 @@
 
 namespace Core {
 
-MappingConfig MappingConfig::fromLastRun(const QString &path)
+MappingConfig MappingConfig::fromJson(const QJsonObject &obj)
 {
-    QFile f(path);
-    if (!f.open(QIODevice::ReadOnly))
-        throw std::runtime_error("Config not found: " + path.toStdString());
-
-    QJsonDocument doc = QJsonDocument::fromJson(f.readAll());
-    if (doc.isNull())
-        throw std::runtime_error("Invalid JSON in: " + path.toStdString());
-
-    const QJsonObject obj = doc.object();
-
     MappingConfig c;
     c.overlayDir = obj.value(QStringLiteral("overlay_dir")).toString(
                    obj.value(QStringLiteral("input_dir")).toString(QStringLiteral("dataset/")));
@@ -41,16 +31,29 @@ MappingConfig MappingConfig::fromLastRun(const QString &path)
     c.entityRegionsDir = obj.contains(QStringLiteral("entity_regions"))
         ? obj.value(QStringLiteral("entity_regions")).toString()
         : defaultEntityRegionsDir();
-    c.entityFaceMode   = obj.value(QStringLiteral("entity_face_mode")).toString(QStringLiteral("same"));
-    c.entityTextureMode= obj.value(QStringLiteral("entity_texture_mode")).toString(QStringLiteral("shared"));
-    c.alpha            = obj.value(QStringLiteral("alpha")).toDouble(0.75);
-    c.scale            = obj.value(QStringLiteral("scale")).toInt(4);
-    c.keepAspect       = obj.value(QStringLiteral("keep_aspect")).toBool(false);
-    c.overlayScale     = obj.value(QStringLiteral("overlay_scale")).toDouble(1.0);
-    c.pathConfig = obj.value(QStringLiteral("path_config"))
-                      .toString(obj.value(QStringLiteral("dir_config")).toString());
+    c.entityFaceMode    = obj.value(QStringLiteral("entity_face_mode")).toString(QStringLiteral("same"));
+    c.entityTextureMode = obj.value(QStringLiteral("entity_texture_mode")).toString(QStringLiteral("shared"));
+    c.alpha           = obj.value(QStringLiteral("alpha")).toDouble(0.75);
+    c.scale           = obj.value(QStringLiteral("scale")).toInt(4);
+    c.keepAspect      = obj.value(QStringLiteral("keep_aspect")).toBool(false);
+    c.overlayScale    = obj.value(QStringLiteral("overlay_scale")).toDouble(1.0);
+    c.pathConfig      = obj.value(QStringLiteral("path_config"))
+                           .toString(obj.value(QStringLiteral("dir_config")).toString());
     c.fastOverlaySize = obj.value(QStringLiteral("fast_overlay_size")).toInt(0);
     return c;
+}
+
+MappingConfig MappingConfig::fromLastRun(const QString &path)
+{
+    QFile f(path);
+    if (!f.open(QIODevice::ReadOnly))
+        throw std::runtime_error("Config not found: " + path.toStdString());
+
+    QJsonDocument doc = QJsonDocument::fromJson(f.readAll());
+    if (doc.isNull())
+        throw std::runtime_error("Invalid JSON in: " + path.toStdString());
+
+    return fromJson(doc.object());
 }
 
 QJsonObject MappingConfig::toJson() const

@@ -8,6 +8,7 @@ set(GUI_SOURCES
     ApplyDialog.cpp
     OverlayLookupDialog.cpp
     SeedSearchDialog.cpp
+    PresetsDialog.cpp
     MainWindow.cpp
 )
 

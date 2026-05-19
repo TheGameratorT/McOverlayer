@@ -33,6 +33,7 @@ private slots:
     void onConfigChanged(const Core::MappingConfig &config);
     void onOverlayLookup();
     void onSeedSearch();
+    void onPresets();
     void onApply();
     void onAbout();
     void onThumbnailLoaded(int index, const QImage &image);

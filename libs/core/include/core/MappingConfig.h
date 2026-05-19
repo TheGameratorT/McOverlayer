@@ -26,6 +26,7 @@ struct MappingConfig {
     int     fastOverlaySize    = 512;
 
     static MappingConfig fromLastRun(const QString &path);
+    static MappingConfig fromJson(const QJsonObject &obj);
     void saveLastRun(const QString &path) const;
     QJsonObject toJson() const;
 

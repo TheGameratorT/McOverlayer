@@ -7,6 +7,7 @@
 #include "ApplyDialog.h"
 #include "OverlayLookupDialog.h"
 #include "SeedSearchDialog.h"
+#include "PresetsDialog.h"
 #include "core/MappingConfig.h"
 #include "core/Hash.h"
 
@@ -82,6 +83,12 @@ void MainWindow::build()
 {
     // ---- Menu bar ----
     auto *toolsMenu = menuBar()->addMenu(QStringLiteral("&Tools"));
+
+    auto *presetsAction = toolsMenu->addAction(QStringLiteral("Config &Presets…"));
+    presetsAction->setToolTip(QStringLiteral("Browse, apply, save, and delete configuration presets."));
+    connect(presetsAction, &QAction::triggered, this, &MainWindow::onPresets);
+
+    toolsMenu->addSeparator();
 
     auto *lookupAction = toolsMenu->addAction(QStringLiteral("&Overlay Lookup"));
     lookupAction->setToolTip(QStringLiteral("Search which overlay is assigned to a specific texture path."));
@@ -404,6 +411,17 @@ void MainWindow::onAbout()
         "<p style=\"padding-left: 30px;\"><a href=\"https://www.gnu.org/licenses/\">https://www.gnu.org/licenses/</a></p>").arg(version);
     
     QMessageBox::about(this, "About MC Overlayer", bodyText);
+}
+
+void MainWindow::onPresets()
+{
+    auto *dlg = new PresetsDialog(m_config, this);
+    dlg->setAttribute(Qt::WA_DeleteOnClose);
+    connect(dlg, &PresetsDialog::presetApplied, this, [this](const Core::MappingConfig &config) {
+        m_configPanel->setConfig(config);
+        m_configPanel->applySettings();
+    });
+    dlg->exec();
 }
 
 void MainWindow::onApply()
