@@ -14,6 +14,9 @@ public:
     // Called from the main thread when the background thumbnail loader finishes.
     void setCompositeImage(const QImage &img);
 
+protected:
+    void contextMenuEvent(QContextMenuEvent *event) override;
+
 private:
     Core::TextureAssignment m_assignment;
     QLabel *m_thumbLabel = nullptr;

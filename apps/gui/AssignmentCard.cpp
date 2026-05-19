@@ -3,6 +3,33 @@
 #include <QVBoxLayout>
 #include <QPixmap>
 #include <QFileInfo>
+#include <QContextMenuEvent>
+#include <QMenu>
+#include <QDir>
+#include <QProcess>
+#include <QUrl>
+
+static void showInFileManager(const QString &filePath)
+{
+#if defined(Q_OS_WIN)
+    QProcess::startDetached(QStringLiteral("explorer.exe"),
+        QStringList{QStringLiteral("/select,") + QDir::toNativeSeparators(filePath)});
+#elif defined(Q_OS_MACOS)
+    QProcess::startDetached(QStringLiteral("open"),
+        QStringList{QStringLiteral("-R"), filePath});
+#else
+    QProcess::startDetached(QStringLiteral("dbus-send"),
+        QStringList{
+            QStringLiteral("--session"),
+            QStringLiteral("--dest=org.freedesktop.FileManager1"),
+            QStringLiteral("--type=method_call"),
+            QStringLiteral("/org/freedesktop/FileManager1"),
+            QStringLiteral("org.freedesktop.FileManager1.ShowItems"),
+            QStringLiteral("array:string:") + QUrl::fromLocalFile(filePath).toString(),
+            QStringLiteral("string:")
+        });
+#endif
+}
 
 static constexpr int kCardWidth    = 160;
 static constexpr int kCardMargin   = 6;
@@ -66,4 +93,18 @@ void AssignmentCard::setCompositeImage(const QImage &img)
             kThumbW, kThumbH,
             Qt::KeepAspectRatio,
             Qt::SmoothTransformation));
+}
+
+void AssignmentCard::contextMenuEvent(QContextMenuEvent *event)
+{
+    QMenu menu(this);
+
+    auto *openTextureFolder = menu.addAction(QStringLiteral("Open Texture Folder"));
+    auto *openOverlayFolder = menu.addAction(QStringLiteral("Open Overlay Folder"));
+
+    const QAction *chosen = menu.exec(event->globalPos());
+    if (chosen == openTextureFolder)
+        showInFileManager(m_assignment.targetPath);
+    else if (chosen == openOverlayFolder)
+        showInFileManager(m_assignment.overlayPath);
 }
