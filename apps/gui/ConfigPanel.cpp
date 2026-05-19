@@ -15,6 +15,7 @@
 #include <QScrollArea>
 #include <QMessageBox>
 #include <QFile>
+#include <QDir>
 
 ConfigPanel::ConfigPanel(const Core::MappingConfig &config, QWidget *parent)
     : QWidget(parent), m_config(config)
@@ -404,7 +405,18 @@ void ConfigPanel::onLoadConfig()
     if (path.isEmpty()) return;
 
     try {
-        const Core::MappingConfig loaded = Core::MappingConfig::fromLastRun(path);
+        Core::MappingConfig loaded = Core::MappingConfig::fromLastRun(path);
+
+        if (!loaded.entityRegionsDir.isEmpty() && !QDir(loaded.entityRegionsDir).exists()) {
+            const QString missing = loaded.entityRegionsDir;
+            loaded.entityRegionsDir = Core::MappingConfig::defaultEntityRegionsDir();
+            QMessageBox::warning(this, QStringLiteral("Entity Regions Not Found"),
+                QStringLiteral("The entity regions directory from the loaded config could not be found:\n\n"
+                               "%1\n\n"
+                               "It has been reset to the app-bundled directory.")
+                .arg(missing));
+        }
+
         setConfig(loaded);
         emit configChanged(m_config);
     } catch (const std::exception &e) {

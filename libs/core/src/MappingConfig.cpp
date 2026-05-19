@@ -36,7 +36,11 @@ MappingConfig MappingConfig::fromLastRun(const QString &path)
                    obj.value(QStringLiteral("source_dir")).toString());
     c.seed             = static_cast<qint64>(obj.value(QStringLiteral("seed")).toDouble());
     c.perFrame         = obj.value(QStringLiteral("per_frame")).toBool(false);
-    c.entityRegionsDir = obj.value(QStringLiteral("entity_regions")).toString();
+    // If the key is absent it was omitted because it matched the bundled default on
+    // the exporting machine — resolve to the local bundled default instead.
+    c.entityRegionsDir = obj.contains(QStringLiteral("entity_regions"))
+        ? obj.value(QStringLiteral("entity_regions")).toString()
+        : defaultEntityRegionsDir();
     c.entityFaceMode   = obj.value(QStringLiteral("entity_face_mode")).toString(QStringLiteral("same"));
     c.entityTextureMode= obj.value(QStringLiteral("entity_texture_mode")).toString(QStringLiteral("shared"));
     c.alpha            = obj.value(QStringLiteral("alpha")).toDouble(0.75);
@@ -56,7 +60,11 @@ QJsonObject MappingConfig::toJson() const
     obj.insert(QStringLiteral("texture_dir"),          textureDir);
     obj.insert(QStringLiteral("seed"),                 static_cast<qint64>(seed));
     obj.insert(QStringLiteral("per_frame"),            perFrame);
-    obj.insert(QStringLiteral("entity_regions"),       entityRegionsDir);
+    // Omit entity_regions when it equals the machine-specific bundled default so
+    // the config is portable — the importing machine will discover its own default.
+    // An explicitly empty value is kept so the user's choice to disable it is preserved.
+    if (entityRegionsDir.isEmpty() || entityRegionsDir != defaultEntityRegionsDir())
+        obj.insert(QStringLiteral("entity_regions"), entityRegionsDir);
     obj.insert(QStringLiteral("entity_face_mode"),     entityFaceMode);
     obj.insert(QStringLiteral("entity_texture_mode"),  entityTextureMode);
     obj.insert(QStringLiteral("alpha"),                alpha);
