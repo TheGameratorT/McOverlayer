@@ -360,7 +360,7 @@ Core::MappingConfig ConfigPanel::collectConfig() const
     c.perFrame         = m_perFrameCb->isChecked();
     c.keepAspect       = m_keepAspectCb->isChecked();
     c.fastOverlaySize  = m_fastOvlSpin->value();
-    c.pathConfig       = m_pathConfigWgt->toJsonStr();
+    c.pathConfig       = m_pathConfigWgt->toJson();
     c.entityRegionsDir = m_entityDirEdit->text().trimmed();
     c.entityFaceMode   = m_faceCombo->currentText();
     c.entityTextureMode= m_texCombo->currentText();
@@ -479,5 +479,5 @@ void ConfigPanel::setConfig(const Core::MappingConfig &config)
     blockSet(m_fastOvlSpin,     [&]{ m_fastOvlSpin->setValue(config.fastOverlaySize); });
     blockSet(m_faceCombo,       [&]{ m_faceCombo->setCurrentText(config.entityFaceMode); });
     blockSet(m_texCombo,        [&]{ m_texCombo->setCurrentText(config.entityTextureMode); });
-    m_pathConfigWgt->fromJsonStr(config.pathConfig);
+    m_pathConfigWgt->fromJson(config.pathConfig);
 }

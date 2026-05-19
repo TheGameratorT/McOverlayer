@@ -1,26 +1,18 @@
 #include "core/PathConfig.h"
 
-#include <QJsonDocument>
 #include <QJsonObject>
-#include <stdexcept>
 
 namespace Core {
 
-PathConfigMap parsePathConfig(const QString &jsonStr)
+PathConfigMap parsePathConfig(const QJsonObject &obj)
 {
-    if (jsonStr.isEmpty())
+    if (obj.isEmpty())
         return {};
 
-    QJsonParseError err;
-    QJsonDocument doc = QJsonDocument::fromJson(jsonStr.toUtf8(), &err);
-    if (doc.isNull())
-        throw std::runtime_error("Invalid path-config JSON: " + err.errorString().toStdString());
-
-    const QJsonObject root = doc.object();
     PathConfigMap result;
 
-    for (const QString &key : root.keys()) {
-        const QJsonObject settings = root.value(key).toObject();
+    for (const QString &key : obj.keys()) {
+        const QJsonObject settings = obj.value(key).toObject();
         QVariantMap m;
         if (settings.contains(QStringLiteral("scale")))
             m.insert(QStringLiteral("scale"), settings.value(QStringLiteral("scale")).toInt());

@@ -32,10 +32,14 @@ static Preset makeDefault32xPreset()
     c.fastOverlaySize   = 512;
     c.entityFaceMode    = QStringLiteral("different");
     c.entityTextureMode = QStringLiteral("separate");
-    c.pathConfig        = QStringLiteral(
-        "{\"assets/minecraft/textures/entity\":{\"scale\":6},"
-        "\"assets/minecraft/textures/gui\":{\"fast-overlay-size\":0,\"scale\":1},"
-        "\"pack.png\":{\"alpha\":1}}");
+    c.pathConfig = QJsonObject{
+        { QStringLiteral("assets/minecraft/textures/entity"),
+          QJsonObject{{ QStringLiteral("scale"), 6 }} },
+        { QStringLiteral("assets/minecraft/textures/gui"),
+          QJsonObject{{ QStringLiteral("fast-overlay-size"), 0 }, { QStringLiteral("scale"), 1 }} },
+        { QStringLiteral("pack.png"),
+          QJsonObject{{ QStringLiteral("alpha"), 1.0 }} },
+    };
 
     Preset p;
     p.name      = QStringLiteral("Default for 32x pack");
@@ -63,11 +67,9 @@ static QString sanitizeFilename(const QString &name)
     return result;
 }
 
-static int pathConfigRuleCount(const QString &json)
+static int pathConfigRuleCount(const QJsonObject &obj)
 {
-    if (json.isEmpty()) return 0;
-    const QJsonDocument doc = QJsonDocument::fromJson(json.toUtf8());
-    return (doc.isNull() || !doc.isObject()) ? 0 : doc.object().size();
+    return obj.size();
 }
 
 // ---------------------------------------------------------------------------

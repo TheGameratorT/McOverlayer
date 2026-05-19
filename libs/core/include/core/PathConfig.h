@@ -1,20 +1,19 @@
 #pragma once
 
-#include <QString>
 #include <QHash>
+#include <QJsonObject>
 #include <QVariantMap>
 
 namespace Core {
 
 using PathConfigMap = QHash<QString, QVariantMap>;
 
-// Parse a JSON string like '{"block":{"scale":8},"pack.png":{"scale":1}}'.
-// Keys can be directory prefixes ("assets/block") or exact file paths ("pack.png").
+// Build a PathConfigMap from a QJsonObject whose keys are exact file paths or
+// directory prefixes and whose values are objects of per-path override settings.
 // Supported override keys: "scale" (int), "alpha" (double),
 //                          "overlay-scale" (double), "keep-aspect" (bool),
 //                          "fast-overlay-size" (int, 0 = disabled).
-// Throws std::runtime_error on invalid JSON.
-PathConfigMap parsePathConfig(const QString &jsonStr);
+PathConfigMap parsePathConfig(const QJsonObject &obj);
 
 // Return overrides for target.
 // Exact path match takes priority over prefix match; among prefix matches, longest wins.

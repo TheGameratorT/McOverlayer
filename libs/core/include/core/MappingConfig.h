@@ -21,7 +21,7 @@ struct MappingConfig {
     int     scale          = 4;
     bool    keepAspect     = false;
     double  overlayScale   = 1.0;
-    QString pathConfig;         // JSON string or empty
+    QJsonObject pathConfig;
     QString outputDir;
     int     fastOverlaySize    = 512;
 

@@ -12,15 +12,14 @@
 #include <QDoubleSpinBox>
 #include <QCheckBox>
 #include <QComboBox>
-#include <QJsonDocument>
 #include <QJsonObject>
 
-PathConfigWidget::PathConfigWidget(const QString &jsonStr, QWidget *parent)
+PathConfigWidget::PathConfigWidget(const QJsonObject &config, QWidget *parent)
     : QWidget(parent)
 {
     build();
-    if (!jsonStr.isEmpty())
-        fromJsonStr(jsonStr);
+    if (!config.isEmpty())
+        fromJson(config);
 }
 
 void PathConfigWidget::build()
@@ -215,7 +214,7 @@ void PathConfigWidget::onDetailChanged()
     emit changed();
 }
 
-QString PathConfigWidget::toJsonStr() const
+QJsonObject PathConfigWidget::toJson() const
 {
     QJsonObject root;
     for (int i = 0; i < m_list->count(); ++i) {
@@ -223,28 +222,24 @@ QString PathConfigWidget::toJsonStr() const
         const QString prefix = data.value(QStringLiteral("prefix")).toString().trimmed();
         if (prefix.isEmpty()) continue;
         QJsonObject settings;
-        if (data.contains(QStringLiteral("scale")))           settings.insert(QStringLiteral("scale"),            data.value(QStringLiteral("scale")).toInt());
-        if (data.contains(QStringLiteral("alpha")))           settings.insert(QStringLiteral("alpha"),            data.value(QStringLiteral("alpha")).toDouble());
-        if (data.contains(QStringLiteral("overlay-scale")))   settings.insert(QStringLiteral("overlay-scale"),    data.value(QStringLiteral("overlay-scale")).toDouble());
-        if (data.contains(QStringLiteral("fast-overlay-size")))settings.insert(QStringLiteral("fast-overlay-size"), data.value(QStringLiteral("fast-overlay-size")).toInt());
-        if (data.contains(QStringLiteral("keep-aspect")))     settings.insert(QStringLiteral("keep-aspect"),        data.value(QStringLiteral("keep-aspect")).toBool());
+        if (data.contains(QStringLiteral("scale")))            settings.insert(QStringLiteral("scale"),             data.value(QStringLiteral("scale")).toInt());
+        if (data.contains(QStringLiteral("alpha")))            settings.insert(QStringLiteral("alpha"),             data.value(QStringLiteral("alpha")).toDouble());
+        if (data.contains(QStringLiteral("overlay-scale")))    settings.insert(QStringLiteral("overlay-scale"),     data.value(QStringLiteral("overlay-scale")).toDouble());
+        if (data.contains(QStringLiteral("fast-overlay-size"))) settings.insert(QStringLiteral("fast-overlay-size"), data.value(QStringLiteral("fast-overlay-size")).toInt());
+        if (data.contains(QStringLiteral("keep-aspect")))      settings.insert(QStringLiteral("keep-aspect"),       data.value(QStringLiteral("keep-aspect")).toBool());
         root.insert(prefix, settings);
     }
-    return root.isEmpty() ? QString{} : QJsonDocument(root).toJson(QJsonDocument::Compact);
+    return root;
 }
 
-void PathConfigWidget::fromJsonStr(const QString &s)
+void PathConfigWidget::fromJson(const QJsonObject &obj)
 {
     m_list->clear();
     m_detail->setVisible(false);
     m_removeBtn->setEnabled(false);
-    if (s.isEmpty()) return;
 
-    QJsonDocument doc = QJsonDocument::fromJson(s.toUtf8());
-    if (doc.isNull() || !doc.isObject()) return;
-
-    for (const QString &prefix : doc.object().keys()) {
-        const QJsonObject settings = doc.object().value(prefix).toObject();
+    for (const QString &prefix : obj.keys()) {
+        const QJsonObject settings = obj.value(prefix).toObject();
         QVariantMap data;
         data.insert(QStringLiteral("prefix"), prefix);
         for (const QString &k : settings.keys())

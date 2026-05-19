@@ -1,8 +1,8 @@
 #pragma once
 
-#include <QWidget>
-#include <QString>
+#include <QJsonObject>
 #include <QVariantMap>
+#include <QWidget>
 
 class QListWidget;
 class QGroupBox;
@@ -19,13 +19,10 @@ class QPushButton;
 class PathConfigWidget : public QWidget {
     Q_OBJECT
 public:
-    explicit PathConfigWidget(const QString &jsonStr = {}, QWidget *parent = nullptr);
+    explicit PathConfigWidget(const QJsonObject &config = {}, QWidget *parent = nullptr);
 
-    // Return current state as a JSON string, or empty string if no entries.
-    QString toJsonStr() const;
-
-    // Populate the widget from a JSON string.
-    void fromJsonStr(const QString &s);
+    QJsonObject toJson() const;
+    void fromJson(const QJsonObject &obj);
 
 signals:
     void changed();

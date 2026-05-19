@@ -37,8 +37,7 @@ MappingConfig MappingConfig::fromJson(const QJsonObject &obj)
     c.scale           = obj.value(QStringLiteral("scale")).toInt(4);
     c.keepAspect      = obj.value(QStringLiteral("keep_aspect")).toBool(false);
     c.overlayScale    = obj.value(QStringLiteral("overlay_scale")).toDouble(1.0);
-    c.pathConfig      = obj.value(QStringLiteral("path_config"))
-                           .toString(obj.value(QStringLiteral("dir_config")).toString());
+    c.pathConfig      = obj.value(QStringLiteral("path_config")).toObject();
     c.fastOverlaySize = obj.value(QStringLiteral("fast_overlay_size")).toInt(0);
     return c;
 }
@@ -74,7 +73,8 @@ QJsonObject MappingConfig::toJson() const
     obj.insert(QStringLiteral("scale"),                scale);
     obj.insert(QStringLiteral("keep_aspect"),          keepAspect);
     obj.insert(QStringLiteral("overlay_scale"),        overlayScale);
-    obj.insert(QStringLiteral("path_config"),          pathConfig);
+    if (!pathConfig.isEmpty())
+        obj.insert(QStringLiteral("path_config"),      pathConfig);
     obj.insert(QStringLiteral("output_dir"),           outputDir);
     obj.insert(QStringLiteral("fast_overlay_size"), fastOverlaySize);
     return obj;

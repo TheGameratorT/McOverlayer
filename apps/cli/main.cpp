@@ -8,6 +8,8 @@
 #include <QThreadPool>
 #include <QAtomicInt>
 #include <QElapsedTimer>
+#include <QJsonDocument>
+#include <QJsonObject>
 #include <QtConcurrent/QtConcurrent>
 
 #include <cstdio>
@@ -186,7 +188,18 @@ int main(int argc, char *argv[])
         entityRegDir = Core::MappingConfig::defaultEntityRegionsDir();
     const QString faceMode     = parser.value(faceModeOpt);
     const QString texMode      = parser.value(texModeOpt);
-    const QString pathConfigJson = parser.value(pathConfigOpt);
+    QJsonObject pathConfigObj;
+    if (parser.isSet(pathConfigOpt)) {
+        const QString pathConfigJson = parser.value(pathConfigOpt);
+        QJsonParseError parseErr;
+        const QJsonDocument pathDoc = QJsonDocument::fromJson(pathConfigJson.toUtf8(), &parseErr);
+        if (pathDoc.isNull() || !pathDoc.isObject()) {
+            fprintf(stderr, "error: --path-config: invalid JSON: %s\n",
+                    qPrintable(parseErr.errorString()));
+            return 1;
+        }
+        pathConfigObj = pathDoc.object();
+    }
 
     // Resolve seed
     qint64 seed = 0;
@@ -248,14 +261,7 @@ int main(int argc, char *argv[])
     QElapsedTimer loadTimer;
     loadTimer.start();
 
-    // Resolve per-target fast-overlay-size: path config override, then global flag.
-    Core::PathConfigMap pathConfig;
-    try {
-        pathConfig = Core::parsePathConfig(pathConfigJson);
-    } catch (const std::exception &e) {
-        fprintf(stderr, "error: --path-config: %s\n", e.what());
-        return 1;
-    }
+    const Core::PathConfigMap pathConfig = Core::parsePathConfig(pathConfigObj);
 
     auto resolveFastSize = [&](const QString &path) -> int {
         const QString relT = Core::relPath(targetDir, path);
@@ -423,7 +429,7 @@ int main(int argc, char *argv[])
     cfg.scale            = scale;
     cfg.keepAspect       = keepAspect;
     cfg.overlayScale     = ovlScale;
-    cfg.pathConfig       = pathConfigJson;
+    cfg.pathConfig       = pathConfigObj;
     cfg.fastOverlaySize  = fastOverlaySize;
     cfg.outputDir        = outputDir;
 

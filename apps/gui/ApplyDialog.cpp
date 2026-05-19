@@ -106,11 +106,7 @@ void ApplyWorker::run()
             regularTargets.append(t);
     }
 
-    // Parse path config
-    Core::PathConfigMap pathConfig;
-    try {
-        pathConfig = Core::parsePathConfig(cfg.pathConfig);
-    } catch (...) {}
+    const Core::PathConfigMap pathConfig = Core::parsePathConfig(cfg.pathConfig);
 
     // Resolve per-target fast-overlay-size from dir config.
     // Entities fall back to the global fastEntityOverlay setting; regular textures default to 0.
